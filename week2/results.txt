@@ -1,0 +1,14 @@
+REGRESSION (Linear Regression on Diabetes dataset)
+MSE: 2900.1936, RMSE: 53.8534, MAE: 42.7941, R2: 0.4526
+
+CLASSIFICATION (Breast Cancer dataset)
+              Model  Accuracy  Precision   Recall  F1 Score
+Logistic Regression  0.982456   0.986111 0.986111  0.986111
+      Random Forest  0.956140   0.958904 0.972222  0.965517
+
+Top 5 features:
+worst area              0.140016
+worst concave points    0.129530
+worst radius            0.097696
+mean concave points     0.090885
+worst perimeter         0.072226
