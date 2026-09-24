@@ -1,0 +1,14 @@
+PART 1: CLUSTERING (Wine dataset)
+PCA variance captured (2 components): 0.5541
+K-Means (K=3) Silhouette Score: 0.2849
+Hierarchical Clustering (K=3) Silhouette Score: 0.2774
+
+PART 2: MODEL EVALUATION (Breast Cancer dataset)
+5-Fold CV Mean Accuracy (baseline): 0.9626 (+/- 0.0179)
+
+Baseline Random Forest (test set):
+  Accuracy: 0.9561, Precision: 0.9589, Recall: 0.9722, F1: 0.9655, ROC-AUC: 0.9937
+
+Best Hyperparameters: {'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 200}
+Tuned Random Forest (test set):
+  Accuracy: 0.9561, Precision: 0.9589, Recall: 0.9722, F1: 0.9655, ROC-AUC: 0.9927
