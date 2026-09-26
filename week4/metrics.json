@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.9561,
+  "precision": 0.9589,
+  "recall": 0.9722,
+  "f1_score": 0.9655,
+  "roc_auc": 0.9927,
+  "confusion_matrix": [
+    [39, 3],
+    [2, 70]
+  ],
+  "n_features": 30,
+  "train_size": 455,
+  "test_size": 114,
+  "threshold_analysis": [
+    {"threshold": 0.3, "precision": 0.9595, "recall": 0.9861, "f1": 0.9726, "false_negatives": 3, "false_positives": 1},
+    {"threshold": 0.4, "precision": 0.9589, "recall": 0.9722, "f1": 0.9655, "false_negatives": 3, "false_positives": 2},
+    {"threshold": 0.5, "precision": 0.9589, "recall": 0.9722, "f1": 0.9655, "false_negatives": 3, "false_positives": 2},
+    {"threshold": 0.6, "precision": 0.9577, "recall": 0.9444, "f1": 0.951, "false_negatives": 3, "false_positives": 4},
+    {"threshold": 0.7, "precision": 1.0, "recall": 0.9028, "f1": 0.9489, "false_negatives": 0, "false_positives": 7}
+  ],
+  "top5_features": {
+    "worst perimeter": 0.1371,
+    "worst area": 0.1277,
+    "worst concave points": 0.111,
+    "mean concave points": 0.1005,
+    "worst radius": 0.0976
+  }
+}
