@@ -1,0 +1,291 @@
+
+========================================================================
+STEP 1: DATA LOADING & FIRST INSPECTION
+========================================================================
+Shape: (1220, 11)
+
+Data types:
+ customerID              str
+gender                  str
+SeniorCitizen         int64
+tenure_months       float64
+contract                str
+internet_service        str
+payment_method          str
+monthly_charges     float64
+total_charges           str
+support_calls       float64
+Churn                   str
+dtype: object
+
+First 5 rows:
+   customerID gender  SeniorCitizen  ...  total_charges support_calls Churn
+0      C1060   Male              0  ...        2280.46           2.0   Yes
+1      C0554   Male              0  ...        1841.43           0.0    No
+2      C0595   Male              1  ...         738.79           2.0    No
+3      C0268   Male              0  ...        1310.24           0.0   Yes
+4      C0082   Male              0  ...         653.93           4.0   Yes
+
+[5 rows x 11 columns]
+
+Summary statistics (numeric):
+        SeniorCitizen  tenure_months  monthly_charges  support_calls
+count        1220.00        1183.00          1157.00        1183.00
+mean            0.18          27.22            60.15           1.30
+std             0.38          17.88            41.27           1.14
+min             0.00          -1.00            15.00           0.00
+25%             0.00          13.00            41.76           0.00
+50%             0.00          24.00            59.02           1.00
+75%             0.00          37.00            78.85           2.00
+max             1.00          72.00           715.00           6.00
+
+========================================================================
+STEP 2: DATA QUALITY AUDIT
+========================================================================
+Exact duplicate rows      : 20
+Missing values per column :
+tenure_months       37
+internet_service    49
+monthly_charges     63
+support_calls       37
+dtype: int64
+Blank strings hidden in total_charges: 12
+Negative tenure values    : 4
+monthly_charges > 200     : 6
+
+Inconsistent labels found:
+  contract        : ['Month-to-month', 'Month-to-month ', 'One year', 'One year ', 'Two year', 'Two year ', 'month-to-month', 'month-to-month ', 'one year', 'two year']
+  gender          : ['F', 'Female', 'M', 'Male', 'female', 'male']
+  internet_service: ['DSL', 'FIBER OPTIC', 'Fiber optic', 'NO', 'No']
+
+========================================================================
+STEP 3: REMOVE DUPLICATE ROWS
+========================================================================
+Rows before: 1220, after: 1200  (removed 20)
+Why: duplicates double-count the same customer, which inflates counts,
+biases statistics, and (in modelling) leaks identical rows into both
+training and test sets, making accuracy look better than it really is.
+
+========================================================================
+STEP 4: FIX DATA TYPES
+========================================================================
+total_charges dtype before: str
+total_charges dtype after : float64
+Blank strings converted to NaN: 12
+Why: a numeric column stored as text cannot be averaged, scaled, or
+correlated. errors='coerce' turns unparseable blanks into NaN so they
+can be handled explicitly with the other missing values.
+
+========================================================================
+STEP 5: STANDARDISE INCONSISTENT CATEGORY LABELS
+========================================================================
+contract        : ['Month-to-month', 'One year', 'Two year']
+gender          : ['Female', 'Male']
+internet_service: ['DSL', 'Fiber optic', 'No']
+Why: 'Month-to-month', 'month-to-month' and 'Month-to-month ' would be
+treated as three different categories, splitting one real group into
+several and distorting both counts and later one-hot encoding.
+
+========================================================================
+STEP 6: HANDLE IMPOSSIBLE VALUES (DATA-ENTRY ERRORS)
+========================================================================
+Negative tenure rows        : 4
+monthly_charges > 200 rows  : 6  values=[240.0, 445.0, 502.0, 519.0, 598.0, 715.0]
+Why: a -1 month tenure or a $500+ monthly bill (plans here cost $15-$105) are errors, not rare
+but real customers. Capping an error would keep a made-up number, so
+they are set to NaN and imputed together with the other missing values.
+
+IQR check on monthly_charges (fence -14.2 to 134.2): 0 remaining outliers
+support_calls above IQR fence (5.0): 2 rows -> KEPT (genuine heavy callers, a real churn signal)
+
+========================================================================
+STEP 7: HANDLE MISSING VALUES
+========================================================================
+Missing values before imputation:
+ tenure_months       40
+internet_service    48
+monthly_charges     66
+total_charges       12
+support_calls       36
+dtype: int64
+
+7a. internet_service -> filled with 'Unknown' category
+    Why: with a categorical column the mode ('Fiber optic') would silently
+    assign ~4% of customers to a plan they may not have. 'Unknown' keeps
+    the rows and lets the model learn whether missingness itself matters.
+
+7b. tenure_months: skew=0.81, mean=27.34, median=24.00
+
+7b. support_calls: skew=0.79, mean=1.29, median=1.00
+    Why median: both are right-skewed, so the mean is pulled up by a long
+    tail of long-tenure customers / heavy callers; the median is robust.
+
+7c. monthly_charges median by internet_service:
+ internet_service
+DSL            50.03
+Fiber optic    79.76
+No             19.87
+Unknown        70.42
+Name: monthly_charges, dtype: float64
+    Overall median would be $58.55. Using it for everyone would
+    give a Fiber customer a DSL-sized bill (and vice versa), so the fill
+    value is taken from customers on the SAME plan instead.
+
+7d. total_charges: 12 missing values rebuilt as tenure x monthly_charges
+    Why: total charges is (approximately) tenure x monthly price, so a
+    calculated value is more accurate than any statistical average.
+
+Missing values after imputation: 0
+
+========================================================================
+STEP 8: EXPLORATORY DATA ANALYSIS
+========================================================================
+Overall churn rate: 40.2%
+
+Churn rate (%) by contract:
+ contract
+Month-to-month    55.0
+One year          26.0
+Two year          11.2
+Name: Churn, dtype: float64
+
+Churn rate (%) by internet service:
+ internet_service
+DSL            34.5
+Fiber optic    50.5
+No             27.6
+Unknown        37.5
+Name: Churn, dtype: float64
+
+Churn rate (%) by payment method:
+ payment_method
+Bank transfer       39.4
+Credit card         36.8
+Electronic check    43.3
+Mailed check        39.6
+Name: Churn, dtype: float64
+
+Churn rate (%) by support calls (4 = 4 or more):
+ calls
+0    31.2
+1    41.2
+2    43.4
+3    45.2
+4    62.2
+Name: Churn, dtype: float64
+
+Churn rate (%) by gender:
+ gender
+Female    37.7
+Male      42.8
+Name: Churn, dtype: float64
+
+Churn rate (%) by tenure band (months):
+ tenure_months
+0-12     47.9
+13-24    45.3
+25-48    37.4
+49+      22.1
+Name: Churn, dtype: float64
+
+========================================================================
+STEP 9: FEATURE SELECTION
+========================================================================
+Chi-square test, gender            vs Churn: p = 0.0829  (not significant)
+Chi-square test, contract          vs Churn: p = 0.0000  (SIGNIFICANT)
+Chi-square test, internet_service  vs Churn: p = 0.0000  (SIGNIFICANT)
+Chi-square test, payment_method    vs Churn: p = 0.3950  (not significant)
+Chi-square test, SeniorCitizen     vs Churn: p = 1.0000  (not significant)
+
+Correlation total_charges vs tenure_months   : 0.76
+Correlation total_charges vs monthly_charges : 0.51
+Correlation total_charges vs (tenure_months x monthly_charges): 0.984
+
+Columns dropped: ['customerID', 'gender', 'total_charges']
+  customerID   -> unique identifier, no predictive meaning (a model could memorise it).
+  gender       -> not significant at the 5% level (p = 0.083) AND a protected attribute:
+                  dropping it avoids a model that treats customers differently by gender.
+  total_charges-> almost fully explained by tenure x monthly_charges (redundant,
+                  causes multicollinearity), so the two parent features are kept instead.
+
+Columns KEPT despite a non-significant chi-square result:
+  SeniorCitizen  (p = 1.000) and payment_method (p = 0.395)
+  Why kept: with only ~1,200 rows a non-significant test is weak evidence of 'no effect',
+  and both are plausible business drivers (electronic-check customers often churn more).
+  Keeping them costs little: if they truly do not matter, the model gives them
+  coefficients near zero. They are re-checked through the model coefficients in Step 12.
+
+========================================================================
+STEP 10: ENCODE CATEGORICAL VARIABLES
+========================================================================
+Churn: Yes/No -> 1/0 (binary target)
+contract: ORDINAL encoding 0/1/2 (commitment length is naturally ordered, and
+          the churn table above shows churn falls steadily along that order).
+internet_service, payment_method: ONE-HOT encoding (nominal, no order). drop_first=True
+          removes one column per feature to avoid the dummy-variable trap.
+
+Columns after encoding: ['SeniorCitizen', 'tenure_months', 'contract', 'monthly_charges', 'support_calls', 'Churn', 'internet_service_Fiber optic', 'internet_service_No', 'internet_service_Unknown', 'payment_method_Credit card', 'payment_method_Electronic check', 'payment_method_Mailed check']
+
+========================================================================
+STEP 11: FEATURE SCALING
+========================================================================
+Before scaling:
+       tenure_months  monthly_charges  support_calls
+min            1.00            15.00           0.00
+max           72.00           101.25           6.00
+mean          27.23            57.90           1.28
+std           17.61            23.85           1.12
+
+NumPy manual Min-Max equals scikit-learn MinMaxScaler: True
+NumPy manual z-score equals scikit-learn StandardScaler: True
+
+After Min-Max scaling:
+       tenure_months  monthly_charges  support_calls
+min            0.00             0.00           0.00
+max            1.00             1.00           1.00
+mean           0.37             0.50           0.21
+std            0.25             0.28           0.19
+
+Why Min-Max: tenure (1-72), charges (15-101) and support calls (0-6) sit on
+very different scales, which would let large-valued columns dominate any
+distance- or gradient-based model. Min-Max maps all to 0-1 while keeping the
+shape of each distribution, and it is safe here because the extreme errors
+were already removed in Step 6 (Min-Max is sensitive to outliers).
+
+Final preprocessed dataset: 1200 rows x 12 columns
+
+========================================================================
+STEP 12: CORRELATION ANALYSIS & BASELINE ML MODEL
+========================================================================
+Correlation of each feature with Churn:
+ contract                          -0.364
+tenure_months                     -0.177
+internet_service_No               -0.124
+payment_method_Credit card        -0.036
+internet_service_Unknown          -0.011
+payment_method_Mailed check       -0.006
+SeniorCitizen                      0.000
+payment_method_Electronic check    0.045
+support_calls                      0.130
+internet_service_Fiber optic       0.182
+monthly_charges                    0.192
+Name: Churn, dtype: float64
+
+Baseline Logistic Regression: accuracy=0.704, ROC-AUC=0.774
+Majority-class baseline (always predict 'No'): accuracy=0.600
+
+Model coefficients (sign shows direction of effect on churn):
+ tenure_months                     -1.64
+contract                          -1.34
+internet_service_Unknown          -0.28
+payment_method_Credit card        -0.21
+payment_method_Mailed check       -0.06
+payment_method_Electronic check    0.15
+SeniorCitizen                      0.18
+internet_service_No                0.26
+internet_service_Fiber optic       0.42
+monthly_charges                    1.07
+support_calls                      1.28
+dtype: float64
+
+Done. Saved: cleaned_customer_churn.csv, preprocessed_customer_churn.csv, figures, results.json

@@ -1,0 +1,1201 @@
+customerID,gender,SeniorCitizen,tenure_months,contract,internet_service,payment_method,monthly_charges,total_charges,support_calls,Churn
+C1060,Male,0,37,Month-to-month,Fiber optic,Mailed check,62.48,2280.46,2,Yes
+C0554,Male,0,31,One year,DSL,Mailed check,61.77,1841.43,0,No
+C0595,Male,1,29,Month-to-month,No,Bank transfer,25.8,738.79,2,No
+C0268,Male,0,55,Month-to-month,No,Bank transfer,22.68,1310.24,0,Yes
+C0082,Male,0,9,Month-to-month,Fiber optic,Bank transfer,75.68,653.93,4,Yes
+C0260,Female,0,32,Month-to-month,Fiber optic,Electronic check,90.22,2887.04,3,Yes
+C0217,Male,1,25,Month-to-month,DSL,Credit card,54.6,1386.1,1,No
+C0384,Male,0,36,Month-to-month,Fiber optic,Electronic check,81.58,2975.0,2,No
+C0256,Male,0,49,Month-to-month,No,Bank transfer,15.0,748.14,2,No
+C0311,Female,0,10,Month-to-month,No,Electronic check,22.67,228.45,1,No
+C0981,Female,1,63,One year,DSL,Mailed check,56.01,3445.24,1,No
+C1199,Female,0,29,One year,DSL,Credit card,64.07,1760.11,2,No
+C0356,Female,1,25,Month-to-month,DSL,Bank transfer,52.92,1303.67,1,No
+C0168,Male,0,28,Month-to-month,DSL,Mailed check,50.11,1372.12,2,Yes
+C0190,Male,0,12,Month-to-month,No,Bank transfer,26.07,306.43,1,Yes
+C0415,Male,0,59,Month-to-month,DSL,Bank transfer,49.61,2871.75,0,No
+C0348,Female,1,15,Month-to-month,DSL,Electronic check,38.93,596.5,3,No
+C0371,Male,0,25,Two year,No,Credit card,16.74,425.69,0,No
+C0109,Male,0,14,One year,Fiber optic,Bank transfer,91.54,1336.82,1,Yes
+C1083,Female,0,55,Month-to-month,DSL,Electronic check,48.38,2647.47,1,No
+C0845,Male,0,33,One year,Fiber optic,Electronic check,80.8,2655.7,2,Yes
+C0160,Female,0,8,Month-to-month,Fiber optic,Credit card,84.73,662.89,2,Yes
+C0302,Female,0,33,One year,No,Credit card,15.0,465.81,1,No
+C0136,Male,0,39,One year,DSL,Electronic check,49.93,1884.69,1,No
+C0597,Female,0,59,Month-to-month,Fiber optic,Mailed check,71.95,4123.63,1,No
+C0579,Female,0,18,Month-to-month,No,Bank transfer,17.26,303.67,3,Yes
+C0798,Male,1,29,Month-to-month,Fiber optic,Electronic check,77.2,2101.54,2,Yes
+C0460,Male,0,9,One year,No,Electronic check,25.08,221.58,1,No
+C0666,Female,0,24,Two year,Fiber optic,Mailed check,60.9,1487.41,1,No
+C0909,Male,0,32,Two year,No,Bank transfer,21.19,689.92,0,No
+C1170,Female,0,24,Month-to-month,DSL,Bank transfer,40.55,533.35,2,Yes
+C0191,Female,0,10,Two year,Fiber optic,Bank transfer,75.36,736.92,2,Yes
+C1052,Male,0,59,One year,No,Mailed check,20.06,1154.82,0,No
+C0774,Female,0,18,Month-to-month,Fiber optic,Bank transfer,77.98,1381.64,1,Yes
+C1041,Female,0,16,Month-to-month,No,Electronic check,25.33,386.58,0,Yes
+C0537,Male,0,9,Month-to-month,DSL,Bank transfer,54.61,480.3,2,No
+C0931,Female,0,56,Month-to-month,DSL,Bank transfer,58.31,3222.25,2,Yes
+C0732,Male,0,34,Month-to-month,Fiber optic,Bank transfer,77.01,2634.95,1,Yes
+C0958,Female,0,21,Month-to-month,DSL,Credit card,54.45,1137.0,0,No
+C0387,Male,0,15,Two year,No,Bank transfer,19.53,291.36,1,Yes
+C0988,Male,0,13,Two year,Fiber optic,Mailed check,77.39,943.76,1,No
+C0249,Female,0,36,Month-to-month,No,Electronic check,24.75,864.02,0,No
+C0420,Female,0,41,One year,DSL,Electronic check,43.4,1709.74,1,No
+C0142,Male,0,33,Month-to-month,DSL,Credit card,66.98,2369.97,0,Yes
+C0594,Female,1,7,One year,DSL,Electronic check,48.56,341.25,3,No
+C0547,Male,0,7,Month-to-month,DSL,Electronic check,46.59,317.38,1,Yes
+C1193,Male,0,29,Two year,Fiber optic,Electronic check,71.88,2196.61,0,No
+C0984,Female,0,24,Two year,DSL,Credit card,59.02,2093.62,0,No
+C0871,Male,1,32,One year,Fiber optic,Credit card,88.08,2905.82,2,Yes
+C0453,Male,0,33,Month-to-month,DSL,Electronic check,53.82,1764.75,0,No
+C1177,Male,0,9,Month-to-month,Fiber optic,Electronic check,91.18,802.01,0,Yes
+C0396,Female,0,68,Month-to-month,Fiber optic,Mailed check,79.47,5429.85,0,No
+C0203,Male,1,18,One year,DSL,Mailed check,46.9,871.46,0,No
+C1009,Female,0,36,Month-to-month,DSL,Mailed check,59.62,2244.67,1,Yes
+C0050,Female,0,6,Two year,No,Bank transfer,24.49,141.76,1,No
+C1164,Female,0,61,One year,DSL,Bank transfer,45.8,2792.89,2,No
+C1135,Female,1,43,One year,No,Bank transfer,26.09,1163.89,1,Yes
+C0076,Male,0,33,One year,No,Electronic check,19.87,669.69,3,No
+C0617,Male,0,15,Month-to-month,DSL,Bank transfer,38.69,575.39,1,Yes
+C0237,Female,0,6,Month-to-month,No,Electronic check,20.12,118.7,0,No
+C0066,Male,0,11,Two year,DSL,Electronic check,47.74,498.81,2,No
+C0811,Male,0,35,Month-to-month,Fiber optic,Credit card,80.28,2765.06,0,No
+C0530,Female,1,45,One year,No,Bank transfer,24.2,1104.11,0,No
+C0681,Female,0,8,Month-to-month,Fiber optic,Mailed check,83.61,687.39,1,Yes
+C0585,Male,0,18,One year,DSL,Bank transfer,59.05,1041.47,2,No
+C0805,Female,0,72,Two year,No,Electronic check,16.7,1181.18,0,No
+C0852,Female,0,50,Month-to-month,No,Electronic check,15.0,775.34,0,No
+C0170,Male,0,18,Month-to-month,DSL,Credit card,58.22,1068.05,3,Yes
+C0458,Female,0,24,Month-to-month,Fiber optic,Electronic check,78.05,1483.27,3,Yes
+C1174,Male,1,19,Month-to-month,Fiber optic,Mailed check,79.76,1362.73,0,Yes
+C1038,Male,1,6,Two year,Fiber optic,Credit card,79.76,465.4,2,No
+C1067,Female,1,19,One year,DSL,Mailed check,50.44,976.66,1,No
+C0893,Female,0,38,Two year,No,Electronic check,15.0,574.66,3,No
+C0310,Male,0,4,Two year,Fiber optic,Electronic check,81.99,317.55,1,Yes
+C0903,Male,0,72,Month-to-month,Fiber optic,Electronic check,80.63,5487.58,1,Yes
+C0349,Male,1,29,Month-to-month,Fiber optic,Bank transfer,82.21,2372.29,4,No
+C0963,Female,1,10,Month-to-month,No,Electronic check,20.24,198.98,1,No
+C0878,Female,1,64,One year,No,Electronic check,20.25,1197.39,2,No
+C0013,Female,1,60,Month-to-month,DSL,Credit card,30.63,1759.15,1,No
+C1034,Male,0,24,One year,Fiber optic,Electronic check,77.41,1889.57,1,Yes
+C1115,Male,0,30,Month-to-month,Unknown,Bank transfer,29.07,893.79,1,No
+C0275,Male,0,50,Month-to-month,DSL,Bank transfer,61.42,3224.02,4,No
+C0724,Male,0,24,Month-to-month,DSL,Mailed check,42.68,1072.57,1,No
+C0425,Male,0,13,Month-to-month,Fiber optic,Electronic check,85.82,1140.23,0,Yes
+C0650,Female,1,40,Month-to-month,DSL,Mailed check,50.025000000000006,2001.0,1,No
+C1197,Female,0,12,Month-to-month,Fiber optic,Bank transfer,78.72,983.76,0,No
+C0758,Male,0,48,Month-to-month,Fiber optic,Mailed check,85.82,4237.32,2,Yes
+C0351,Female,0,2,Month-to-month,Fiber optic,Electronic check,76.21,149.02,0,Yes
+C1086,Female,0,24,Two year,Fiber optic,Electronic check,66.19,1423.07,1,No
+C0182,Male,1,31,Month-to-month,DSL,Credit card,48.44,1382.2,2,Yes
+C0108,Female,0,33,Month-to-month,DSL,Bank transfer,42.81,1344.83,3,No
+C0998,Male,0,16,One year,Fiber optic,Credit card,75.5,1260.0,3,No
+C0195,Female,0,27,Month-to-month,Fiber optic,Electronic check,70.77,1888.19,2,Yes
+C0994,Male,0,29,Two year,Fiber optic,Mailed check,79.79,2298.52,1,No
+C0494,Female,0,42,Month-to-month,No,Bank transfer,19.87,1026.88,0,Yes
+C0840,Female,1,60,Month-to-month,Fiber optic,Electronic check,84.45,5422.09,0,Yes
+C0600,Female,0,22,Month-to-month,No,Bank transfer,23.75,504.18,0,Yes
+C0059,Female,0,72,Month-to-month,Fiber optic,Credit card,69.61,4949.19,2,No
+C0736,Female,1,28,Month-to-month,DSL,Credit card,54.25,1561.61,1,No
+C0089,Female,0,25,Month-to-month,DSL,Credit card,49.48,1162.36,1,No
+C0127,Male,0,13,Two year,DSL,Mailed check,55.19,708.76,1,No
+C0633,Male,0,24,Month-to-month,DSL,Mailed check,35.16,784.27,1,Yes
+C0402,Female,0,24,Month-to-month,DSL,Credit card,82.21,2481.08,1,No
+C1080,Female,0,18,Two year,DSL,Bank transfer,49.99,927.82,1,Yes
+C0630,Male,0,30,Month-to-month,Fiber optic,Mailed check,84.23,2496.36,0,No
+C0561,Female,0,13,Two year,Fiber optic,Bank transfer,74.64,983.72,1,No
+C0905,Male,0,72,Month-to-month,DSL,Bank transfer,48.87,3510.61,1,No
+C0028,Female,0,23,Month-to-month,Fiber optic,Mailed check,88.97,2079.32,3,Yes
+C0315,Male,1,28,Month-to-month,Fiber optic,Credit card,81.55,2251.43,2,Yes
+C0447,Male,0,25,Two year,No,Electronic check,15.0,375.84,0,No
+C0324,Female,0,3,One year,Fiber optic,Mailed check,70.19,218.16,0,No
+C0809,Male,1,8,Two year,Unknown,Electronic check,70.42,494.29,0,No
+C0196,Male,0,29,One year,No,Mailed check,15.0,439.49,1,No
+C0664,Male,1,15,Two year,Fiber optic,Electronic check,69.86,1033.26,0,No
+C0120,Male,1,28,One year,Unknown,Electronic check,83.02,2207.09,1,Yes
+C0391,Female,0,2,Month-to-month,Fiber optic,Bank transfer,74.14,142.63,0,Yes
+C0287,Male,0,20,One year,Fiber optic,Mailed check,93.84,1873.32,1,Yes
+C0710,Male,1,7,Month-to-month,Fiber optic,Electronic check,86.16,572.23,1,Yes
+C0431,Male,0,23,One year,No,Credit card,22.02,518.58,0,No
+C0642,Female,0,15,Month-to-month,Fiber optic,Electronic check,97.96,1401.42,2,Yes
+C0202,Female,0,11,One year,Fiber optic,Bank transfer,76.16,842.38,2,No
+C0874,Male,0,18,Month-to-month,Fiber optic,Electronic check,81.7,1519.23,0,Yes
+C0790,Male,0,11,Month-to-month,DSL,Bank transfer,50.24,575.35,2,Yes
+C0916,Male,0,22,Two year,Fiber optic,Credit card,71.18,1496.95,1,No
+C0281,Male,0,15,Two year,DSL,Mailed check,50.61,735.05,3,No
+C0134,Female,0,15,Month-to-month,Fiber optic,Electronic check,92.7,1408.81,1,No
+C1070,Male,1,18,Month-to-month,DSL,Credit card,44.48,758.28,2,No
+C0091,Male,0,3,Month-to-month,DSL,Electronic check,52.14,158.58,0,Yes
+C0454,Male,0,32,Month-to-month,DSL,Mailed check,57.84,1814.2,1,Yes
+C0342,Male,1,3,Two year,No,Credit card,22.43,67.53,0,No
+C0143,Male,1,8,One year,Unknown,Mailed check,82.26,658.08,1,No
+C0825,Female,0,23,Two year,Fiber optic,Mailed check,87.41,2049.52,1,No
+C0081,Female,0,7,Month-to-month,No,Electronic check,29.83,210.83,0,No
+C1042,Female,0,7,One year,Fiber optic,Credit card,79.82,569.55,1,Yes
+C0259,Male,0,45,Month-to-month,No,Electronic check,16.69,752.87,0,No
+C0831,Male,1,13,Month-to-month,DSL,Bank transfer,45.69,617.92,0,Yes
+C0036,Male,0,24,One year,No,Credit card,32.95,807.18,2,Yes
+C0556,Female,0,50,Two year,No,Credit card,16.71,848.8,0,No
+C0232,Female,0,6,Month-to-month,Fiber optic,Bank transfer,88.92,501.97,1,Yes
+C0737,Female,0,29,Month-to-month,Fiber optic,Electronic check,80.37,2140.32,3,Yes
+C0937,Male,0,24,Month-to-month,Fiber optic,Electronic check,75.42,1737.0,0,No
+C0007,Male,1,24,Two year,No,Credit card,15.13,1118.45,1,No
+C0574,Male,0,44,Month-to-month,DSL,Bank transfer,51.04,2363.01,2,No
+C0528,Male,0,72,One year,No,Electronic check,15.0,1073.22,2,Yes
+C0048,Female,0,12,One year,DSL,Electronic check,46.51,580.75,2,No
+C1063,Male,0,9,Two year,No,Credit card,35.76,329.52,1,No
+C1018,Male,0,19,Month-to-month,Fiber optic,Credit card,84.58,1666.47,0,Yes
+C0706,Female,1,6,Month-to-month,Fiber optic,Credit card,76.91,460.31,1,Yes
+C0364,Female,0,34,Month-to-month,Fiber optic,Electronic check,84.44,2928.95,1,Yes
+C0095,Female,1,13,One year,DSL,Mailed check,41.07,539.78,1,No
+C0539,Female,0,45,Month-to-month,Fiber optic,Electronic check,74.62,3241.05,2,Yes
+C1039,Male,0,25,Month-to-month,DSL,Bank transfer,52.55,1313.77,0,No
+C1105,Male,0,28,Month-to-month,Fiber optic,Mailed check,81.33,2234.4,2,Yes
+C0429,Male,0,22,Month-to-month,DSL,Electronic check,39.18,878.4,0,No
+C0110,Female,0,19,One year,Fiber optic,Credit card,73.04,1391.97,2,Yes
+C0488,Female,0,15,One year,DSL,Electronic check,48.72,726.98,3,Yes
+C0149,Female,0,5,Month-to-month,DSL,Bank transfer,52.19,253.19,1,No
+C0582,Female,0,59,Two year,Fiber optic,Credit card,83.68,4783.33,2,No
+C0009,Male,0,24,Two year,Fiber optic,Bank transfer,76.05,1819.15,2,No
+C0685,Male,1,28,Month-to-month,No,Electronic check,18.65,537.17,2,Yes
+C0121,Male,0,50,One year,Fiber optic,Mailed check,83.77,4383.88,3,No
+C0828,Female,0,72,Month-to-month,No,Credit card,20.03,1438.19,3,No
+C0548,Female,0,63,Month-to-month,DSL,Electronic check,51.86,3228.66,2,No
+C0726,Male,1,14,Month-to-month,Fiber optic,Electronic check,77.57,1149.36,1,Yes
+C0020,Male,0,18,One year,DSL,Bank transfer,42.76,726.41,3,No
+C0088,Male,1,11,One year,DSL,Mailed check,41.37,457.9,0,No
+C0312,Female,1,16,Month-to-month,Fiber optic,Electronic check,89.89,1396.8,0,Yes
+C0743,Female,0,67,Two year,Fiber optic,Electronic check,74.39,4984.13,0,No
+C0817,Male,0,17,One year,No,Electronic check,17.66,303.43,1,No
+C0472,Female,0,24,Month-to-month,Fiber optic,Bank transfer,92.68,2186.37,0,No
+C0187,Male,0,29,Month-to-month,DSL,Mailed check,46.71,1310.94,0,No
+C1157,Male,0,34,Two year,DSL,Electronic check,48.77,1710.57,1,No
+C0240,Female,0,22,Month-to-month,DSL,Bank transfer,63.89,1445.76,0,No
+C0841,Male,0,27,One year,DSL,Electronic check,55.17,1452.15,0,No
+C0102,Male,0,21,Month-to-month,Fiber optic,Mailed check,67.6,1303.9,3,Yes
+C0572,Male,0,72,One year,Fiber optic,Mailed check,82.02,5951.92,1,No
+C0522,Male,0,14,Month-to-month,DSL,Electronic check,48.79,691.54,0,Yes
+C1195,Female,1,33,One year,Fiber optic,Mailed check,83.95,2723.42,1,No
+C0199,Male,0,55,Two year,Fiber optic,Bank transfer,68.94,3597.83,0,No
+C0603,Female,0,13,One year,Fiber optic,Electronic check,76.66,941.93,1,No
+C0889,Male,1,47,Month-to-month,Fiber optic,Credit card,93.12,4161.15,2,No
+C0979,Male,1,17,Month-to-month,Fiber optic,Electronic check,76.72,1320.32,1,No
+C0665,Female,0,47,Month-to-month,Fiber optic,Electronic check,73.94,3431.84,2,No
+C0383,Female,0,4,Month-to-month,Fiber optic,Electronic check,68.94,268.79,1,Yes
+C0701,Female,0,3,Two year,DSL,Mailed check,50.025000000000006,138.55,1,No
+C0205,Male,0,33,Two year,Fiber optic,Credit card,93.2,3024.94,2,No
+C0703,Male,0,30,Month-to-month,No,Credit card,18.19,553.47,0,No
+C0394,Female,0,61,Month-to-month,DSL,Mailed check,40.43,2334.71,2,No
+C0936,Female,0,16,Month-to-month,DSL,Credit card,56.14,980.83,0,No
+C0583,Male,0,12,Month-to-month,DSL,Mailed check,72.03,868.73,1,No
+C0513,Female,0,18,Month-to-month,No,Bank transfer,19.87,424.72,0,No
+C0042,Female,0,5,One year,DSL,Mailed check,48.97,234.43,2,No
+C0284,Male,0,61,Two year,No,Mailed check,25.27,1518.0,3,No
+C0651,Male,0,11,One year,DSL,Electronic check,59.03,634.42,0,No
+C0640,Female,0,21,Month-to-month,DSL,Electronic check,56.92,1146.57,1,Yes
+C0621,Male,0,25,Month-to-month,Fiber optic,Mailed check,69.65,1757.53,1,Yes
+C0456,Female,0,12,One year,Fiber optic,Bank transfer,79.03,943.96,2,No
+C0869,Male,0,13,Two year,Fiber optic,Electronic check,78.96,1088.75,0,No
+C0155,Male,0,2,One year,DSL,Mailed check,57.34,115.02,1,Yes
+C0560,Female,0,31,Month-to-month,Fiber optic,Credit card,81.49,2459.05,2,Yes
+C0777,Male,0,24,Month-to-month,Fiber optic,Bank transfer,73.69,1727.46,1,Yes
+C0112,Female,0,12,One year,Fiber optic,Electronic check,87.76,1017.79,1,Yes
+C0938,Male,0,28,Month-to-month,DSL,Bank transfer,40.52,1130.3,2,No
+C0881,Male,0,44,Two year,DSL,Credit card,41.48,1887.02,4,No
+C1159,Male,1,32,Two year,Fiber optic,Bank transfer,79.76,2599.91,2,No
+C0904,Female,0,22,One year,Fiber optic,Credit card,78.38,1631.92,1,No
+C1102,Male,1,11,One year,Fiber optic,Electronic check,92.16,957.89,0,Yes
+C0913,Male,0,60,Month-to-month,Unknown,Credit card,45.55,2764.72,1,Yes
+C0865,Female,0,26,Month-to-month,DSL,Bank transfer,60.86,1524.0,1,No
+C0770,Male,0,25,Two year,Fiber optic,Mailed check,79.76,2154.51,1,No
+C1099,Male,1,39,Month-to-month,No,Electronic check,15.0,597.71,1,No
+C0687,Male,0,21,Month-to-month,Fiber optic,Electronic check,65.66,1405.43,1,Yes
+C0856,Female,0,39,Month-to-month,Fiber optic,Credit card,73.83,2957.26,1,No
+C1085,Male,0,12,Two year,Fiber optic,Bank transfer,66.56,795.17,3,No
+C0641,Female,1,8,Month-to-month,DSL,Electronic check,40.49,326.18,1,Yes
+C1186,Male,1,60,Two year,Fiber optic,Mailed check,71.73,3979.6,3,No
+C0322,Male,1,12,Two year,Fiber optic,Credit card,66.43,781.35,1,No
+C0164,Male,0,27,Two year,Fiber optic,Electronic check,66.46,1819.59,6,No
+C0269,Female,0,41,One year,No,Bank transfer,25.41,1022.3,1,Yes
+C0995,Female,0,22,Month-to-month,DSL,Mailed check,68.24,1522.6,2,No
+C0079,Female,0,47,Month-to-month,Fiber optic,Mailed check,81.96,3893.66,3,Yes
+C1014,Male,0,1,One year,DSL,Electronic check,59.62,60.27,1,Yes
+C0776,Female,0,28,Month-to-month,No,Mailed check,24.85,701.46,1,Yes
+C0229,Female,1,26,One year,DSL,Credit card,54.67,1418.43,4,No
+C0061,Female,0,59,Month-to-month,No,Bank transfer,15.0,919.47,0,No
+C0868,Female,0,33,Month-to-month,Fiber optic,Electronic check,87.32,3031.76,2,Yes
+C0991,Male,0,20,Two year,Fiber optic,Credit card,81.22,1724.68,3,No
+C1028,Male,0,20,Month-to-month,DSL,Mailed check,61.36,1236.86,0,Yes
+C0526,Male,0,9,One year,Fiber optic,Mailed check,83.27,726.91,3,No
+C1061,Female,0,19,Month-to-month,No,Mailed check,15.0,283.59,0,No
+C0201,Male,0,12,Month-to-month,No,Electronic check,19.97,230.96,2,No
+C1156,Female,0,12,Month-to-month,DSL,Electronic check,58.82,671.27,2,Yes
+C0189,Male,0,72,Two year,Fiber optic,Bank transfer,73.5,5213.8,4,No
+C0712,Female,1,19,Two year,DSL,Electronic check,59.27,1148.32,1,No
+C0829,Female,0,17,Month-to-month,Unknown,Bank transfer,50.77,874.99,2,No
+C1017,Male,0,18,Two year,Fiber optic,Electronic check,78.27,1406.39,1,No
+C0711,Female,0,48,Month-to-month,No,Electronic check,16.17,775.17,1,No
+C0980,Female,1,16,Month-to-month,Fiber optic,Bank transfer,80.29,1238.27,2,No
+C0063,Male,0,28,One year,Fiber optic,Electronic check,63.74,1712.41,0,Yes
+C1147,Female,0,7,Two year,Fiber optic,Credit card,81.07,549.6,2,No
+C0289,Female,0,37,One year,Fiber optic,Bank transfer,86.11,3151.16,1,No
+C0814,Male,1,12,Month-to-month,Unknown,Electronic check,15.0,179.82,1,No
+C0100,Male,0,19,Month-to-month,Fiber optic,Bank transfer,77.16,1417.79,0,Yes
+C0305,Female,1,5,One year,DSL,Electronic check,45.32,213.93,0,No
+C0660,Male,1,11,Month-to-month,Fiber optic,Credit card,68.59,743.99,1,No
+C0730,Female,0,62,Month-to-month,No,Electronic check,23.39,1463.58,0,No
+C0648,Female,0,11,Month-to-month,DSL,Mailed check,49.23,551.99,2,Yes
+C0077,Male,1,47,Two year,DSL,Credit card,54.43,2532.47,0,No
+C0212,Female,0,9,Two year,DSL,Electronic check,56.77,517.95,3,No
+C1165,Female,0,34,Two year,Fiber optic,Electronic check,95.47,3343.72,2,No
+C1145,Male,0,19,Two year,DSL,Credit card,50.025000000000006,756.69,2,No
+C0444,Male,0,32,One year,DSL,Credit card,42.31,1334.78,3,Yes
+C0245,Female,0,48,One year,No,Electronic check,28.72,1336.32,1,No
+C0588,Male,1,51,Month-to-month,DSL,Bank transfer,47.49,2393.77,0,No
+C0337,Female,1,40,Month-to-month,DSL,Mailed check,57.56,2218.47,0,No
+C0206,Male,0,36,Month-to-month,DSL,Credit card,44.12,1523.19,1,No
+C0608,Female,0,65,One year,DSL,Electronic check,47.87,3284.34,2,No
+C0928,Male,0,52,Two year,DSL,Electronic check,21.77,1131.64,1,No
+C0221,Male,0,40,Month-to-month,No,Mailed check,24.76,1006.58,1,Yes
+C0263,Male,0,72,Two year,Fiber optic,Mailed check,79.82,5560.38,1,No
+C0035,Female,0,19,Month-to-month,DSL,Bank transfer,47.43,869.58,1,No
+C0086,Female,0,65,Month-to-month,DSL,Bank transfer,41.13,2805.44,2,Yes
+C0858,Male,0,7,Month-to-month,DSL,Credit card,67.45,460.77,1,Yes
+C0157,Male,0,22,Two year,DSL,Electronic check,54.61,1232.2,2,No
+C1125,Female,0,7,One year,Fiber optic,Electronic check,94.07,642.41,3,No
+C0517,Female,0,25,Month-to-month,Fiber optic,Electronic check,71.01,1775.25,0,Yes
+C0862,Female,0,19,One year,No,Mailed check,21.97,436.45,0,No
+C0555,Female,0,43,Month-to-month,No,Bank transfer,21.22,948.23,1,No
+C1116,Male,0,38,Month-to-month,DSL,Bank transfer,63.31,2410.51,0,No
+C0654,Female,0,8,Month-to-month,DSL,Bank transfer,45.31,355.6,0,No
+C0767,Female,0,38,Month-to-month,No,Bank transfer,25.95,972.36,2,Yes
+C0818,Male,0,33,One year,Fiber optic,Mailed check,68.24,2237.94,1,No
+C0538,Male,0,13,Month-to-month,No,Bank transfer,15.0,194.95,2,Yes
+C0948,Male,0,34,Month-to-month,Fiber optic,Credit card,85.29,2866.63,1,Yes
+C0423,Female,1,44,Month-to-month,DSL,Bank transfer,45.87,1956.5,2,Yes
+C0376,Male,0,72,Two year,No,Mailed check,15.0,1030.17,1,No
+C0482,Female,1,16,Month-to-month,DSL,Mailed check,44.24,703.82,1,Yes
+C0350,Male,0,10,Month-to-month,Fiber optic,Credit card,93.14,936.22,3,Yes
+C0409,Female,0,36,Two year,No,Electronic check,19.87,695.58,2,No
+C0791,Male,1,1,Month-to-month,Fiber optic,Electronic check,78.19,77.8,1,Yes
+C0614,Male,0,17,Month-to-month,Fiber optic,Electronic check,82.52,1479.68,1,Yes
+C0549,Female,0,35,One year,No,Electronic check,23.29,839.43,1,No
+C0813,Female,1,31,Month-to-month,No,Bank transfer,15.0,473.27,3,No
+C0404,Female,0,57,One year,No,Electronic check,20.8,1127.43,1,No
+C0531,Female,1,9,Month-to-month,Fiber optic,Mailed check,69.97,614.11,2,Yes
+C0135,Female,0,16,Month-to-month,Fiber optic,Mailed check,79.76,1183.51,2,Yes
+C0577,Female,0,43,Month-to-month,Unknown,Mailed check,60.7,2595.52,1,No
+C1143,Female,0,24,One year,DSL,Electronic check,50.025000000000006,454.99,0,No
+C0977,Male,0,28,One year,Fiber optic,Credit card,78.08,2056.56,4,Yes
+C0011,Female,0,29,Month-to-month,DSL,Mailed check,45.91,1415.67,3,Yes
+C0483,Male,1,24,Two year,Fiber optic,Bank transfer,77.39,1458.92,0,No
+C0299,Male,0,8,Month-to-month,Fiber optic,Credit card,79.28,629.13,0,Yes
+C0576,Male,0,13,Two year,DSL,Electronic check,52.07,714.24,1,No
+C0624,Male,0,62,Two year,No,Mailed check,15.0,921.83,1,No
+C0839,Male,1,72,Month-to-month,Fiber optic,Mailed check,78.44,5433.65,1,No
+C1016,Female,0,31,One year,DSL,Bank transfer,46.19,1369.67,2,No
+C0440,Male,0,3,Month-to-month,DSL,Bank transfer,44.5,134.13,2,Yes
+C0105,Female,0,69,Two year,Fiber optic,Bank transfer,89.37,6167.86,0,No
+C0873,Male,0,12,Month-to-month,Fiber optic,Electronic check,76.4,911.44,3,Yes
+C0854,Male,1,45,Month-to-month,Fiber optic,Electronic check,87.58,3966.39,2,Yes
+C0620,Male,0,17,One year,DSL,Bank transfer,50.07,879.45,1,No
+C0436,Male,0,9,Month-to-month,Fiber optic,Credit card,67.82,641.1,2,No
+C0997,Female,0,44,One year,Fiber optic,Electronic check,69.52,3006.34,3,No
+C1185,Male,0,3,Month-to-month,DSL,Bank transfer,49.03,142.14,3,Yes
+C0326,Male,0,25,Month-to-month,Fiber optic,Mailed check,89.24,2371.12,0,Yes
+C0465,Male,0,8,Month-to-month,DSL,Credit card,52.8,409.39,4,Yes
+C0999,Female,0,31,Month-to-month,DSL,Credit card,47.02,1411.89,1,No
+C0140,Male,0,24,Month-to-month,DSL,Credit card,46.54,570.02,0,Yes
+C1094,Male,0,13,One year,Fiber optic,Credit card,58.32,758.17,0,No
+C1046,Male,0,23,Month-to-month,Unknown,Mailed check,15.0,346.87,2,Yes
+C0166,Female,0,25,Month-to-month,DSL,Electronic check,44.06,1086.19,2,Yes
+C0227,Female,0,24,Month-to-month,No,Bank transfer,15.0,345.74,1,No
+C0910,Male,0,72,One year,DSL,Mailed check,47.73,3308.14,1,No
+C0181,Female,0,72,Month-to-month,Fiber optic,Electronic check,88.5,6529.35,1,No
+C0192,Female,0,17,Month-to-month,No,Bank transfer,26.81,452.06,0,No
+C0307,Male,0,4,Month-to-month,No,Bank transfer,36.32,139.21,3,Yes
+C0336,Female,0,17,Month-to-month,Fiber optic,Credit card,84.92,1410.26,0,Yes
+C0864,Female,0,36,Two year,Fiber optic,Credit card,87.54,3212.39,0,No
+C1076,Male,1,49,Two year,Fiber optic,Credit card,82.19,3998.23,2,No
+C0956,Female,0,31,One year,Fiber optic,Electronic check,77.35,2451.59,1,No
+C0834,Male,0,24,Two year,DSL,Bank transfer,46.47,1142.39,1,No
+C0914,Female,0,41,One year,DSL,Credit card,49.52,1915.91,2,No
+C0846,Male,0,57,Month-to-month,DSL,Electronic check,45.39,2471.62,2,No
+C0784,Male,1,40,Month-to-month,Fiber optic,Credit card,92.02,4000.9,2,Yes
+C0346,Male,0,16,One year,DSL,Mailed check,36.98,591.79,1,No
+C0786,Female,0,19,Month-to-month,No,Electronic check,19.87,280.26,2,No
+C1055,Male,1,16,Month-to-month,Fiber optic,Credit card,73.75,1190.03,2,No
+C0243,Male,0,47,One year,DSL,Mailed check,57.19,2650.99,3,No
+C0018,Male,0,46,One year,DSL,Electronic check,40.7,1760.1,0,No
+C0924,Male,0,47,Month-to-month,Fiber optic,Bank transfer,77.03,3633.19,2,Yes
+C0800,Male,0,5,One year,DSL,Credit card,35.46,183.61,1,No
+C0626,Male,1,23,One year,No,Mailed check,23.64,497.57,0,Yes
+C0208,Female,0,3,Month-to-month,DSL,Electronic check,56.37,174.57,1,Yes
+C0860,Female,0,60,Two year,Fiber optic,Electronic check,94.59,5751.17,2,No
+C1173,Male,0,46,One year,Fiber optic,Bank transfer,76.95,3304.94,2,No
+C0661,Male,0,8,Two year,DSL,Mailed check,51.91,422.74,2,No
+C1179,Male,0,9,Month-to-month,Fiber optic,Credit card,75.83,685.61,1,Yes
+C0952,Male,0,24,Two year,Unknown,Bank transfer,93.85,2235.36,0,No
+C0972,Male,0,28,Month-to-month,DSL,Electronic check,52.35,1382.74,0,Yes
+C0794,Female,0,22,Month-to-month,DSL,Mailed check,59.12,1345.3,0,No
+C1192,Male,0,6,Month-to-month,DSL,Electronic check,49.43,294.63,0,No
+C0341,Female,0,46,Month-to-month,Fiber optic,Credit card,84.21,3923.92,1,Yes
+C0176,Male,1,24,Month-to-month,DSL,Electronic check,49.61,1223.43,1,Yes
+C0987,Female,0,55,Month-to-month,DSL,Bank transfer,27.2,1449.21,3,Yes
+C0321,Male,0,24,One year,Fiber optic,Bank transfer,83.24,1997.76,0,Yes
+C0773,Male,0,40,One year,Fiber optic,Mailed check,69.25,2747.17,1,No
+C0954,Male,0,16,Month-to-month,No,Bank transfer,15.0,243.89,1,No
+C0464,Male,0,10,Month-to-month,No,Electronic check,28.78,289.06,0,No
+C0373,Male,0,34,Month-to-month,DSL,Mailed check,60.22,2134.47,2,No
+C1056,Female,0,12,One year,DSL,Mailed check,32.89,393.54,1,No
+C0481,Male,0,15,Month-to-month,DSL,Bank transfer,44.5,682.35,0,No
+C0405,Male,0,45,Two year,Fiber optic,Bank transfer,69.62,3027.62,1,No
+C0802,Male,0,36,One year,DSL,Credit card,66.43,2466.26,0,No
+C1187,Male,0,11,One year,No,Electronic check,22.09,255.6,4,No
+C0427,Female,1,20,Month-to-month,Fiber optic,Bank transfer,84.34,1659.92,1,No
+C0330,Female,0,19,Two year,Fiber optic,Mailed check,73.82,1381.39,5,No
+C0532,Male,0,21,One year,Fiber optic,Credit card,75.05,1560.64,2,No
+C0327,Male,0,23,Two year,Fiber optic,Credit card,84.7,1864.92,0,No
+C0859,Female,1,18,Month-to-month,DSL,Electronic check,50.77,913.77,1,Yes
+C0745,Female,1,8,One year,Fiber optic,Bank transfer,82.48,670.32,0,Yes
+C1190,Male,0,32,Month-to-month,No,Bank transfer,15.0,481.95,1,Yes
+C0060,Female,0,4,Two year,DSL,Electronic check,40.64,168.18,1,No
+C0014,Female,1,24,One year,DSL,Credit card,47.58,1209.67,0,Yes
+C0433,Female,0,19,One year,Fiber optic,Bank transfer,75.74,1377.95,1,Yes
+C0419,Male,0,6,Month-to-month,Fiber optic,Electronic check,60.59,359.04,0,No
+C0536,Male,0,39,Month-to-month,DSL,Electronic check,50.025000000000006,1928.67,1,Yes
+C0941,Female,0,72,Month-to-month,DSL,Electronic check,51.45,3665.83,0,No
+C0700,Male,0,24,Two year,Fiber optic,Mailed check,90.62,2208.11,1,No
+C0092,Female,1,10,Month-to-month,DSL,Bank transfer,48.48,487.62,1,No
+C1119,Female,0,17,One year,DSL,Mailed check,52.81,852.25,0,No
+C0323,Female,0,36,Two year,Fiber optic,Bank transfer,81.19,2998.56,3,Yes
+C0521,Male,0,14,Month-to-month,Fiber optic,Mailed check,79.76,1085.13,0,No
+C0332,Male,0,46,Month-to-month,Unknown,Credit card,38.28,1759.11,1,No
+C0645,Female,0,26,Month-to-month,DSL,Bank transfer,60.2,1556.98,5,Yes
+C0474,Male,1,8,Month-to-month,DSL,Bank transfer,55.65,436.35,1,Yes
+C0054,Male,0,37,Month-to-month,DSL,Credit card,53.52,2074.77,2,No
+C0747,Female,0,31,Month-to-month,Fiber optic,Credit card,85.99,2603.12,2,No
+C0004,Male,0,8,Month-to-month,Fiber optic,Credit card,85.94,702.19,3,Yes
+C0480,Male,0,6,Two year,DSL,Electronic check,46.71,280.26,4,No
+C0495,Male,0,4,Month-to-month,No,Mailed check,19.87,78.05,4,Yes
+C0257,Female,0,32,One year,Fiber optic,Credit card,84.79,2679.36,5,Yes
+C0049,Female,0,47,Two year,No,Bank transfer,19.79,967.78,1,No
+C1188,Female,0,14,Month-to-month,Fiber optic,Electronic check,69.2,1013.19,1,Yes
+C0867,Female,0,34,Two year,No,Mailed check,17.18,570.05,1,No
+C0216,Male,1,14,Month-to-month,DSL,Electronic check,55.93,792.9,1,No
+C0487,Male,0,51,One year,Fiber optic,Bank transfer,74.54,3724.35,1,Yes
+C0578,Female,0,28,One year,Fiber optic,Credit card,79.76,1892.34,1,Yes
+C0073,Male,1,8,One year,Fiber optic,Credit card,75.37,601.46,3,No
+C1123,Male,0,13,Month-to-month,DSL,Mailed check,53.38,702.28,2,Yes
+C0675,Female,0,34,Month-to-month,Fiber optic,Mailed check,81.9,2679.78,1,Yes
+C0003,Female,1,11,One year,Fiber optic,Bank transfer,70.89,750.84,0,No
+C1114,Male,1,11,Month-to-month,No,Mailed check,17.19,187.47,1,Yes
+C0891,Male,0,19,One year,No,Bank transfer,15.0,283.96,1,No
+C0242,Female,0,37,Month-to-month,DSL,Credit card,36.9,1331.96,4,Yes
+C0662,Female,0,13,Month-to-month,DSL,Electronic check,47.33,636.39,0,No
+C0951,Male,0,36,Two year,Fiber optic,Mailed check,87.04,3111.39,0,No
+C1026,Male,0,27,One year,DSL,Mailed check,59.89,1569.64,0,No
+C1043,Male,0,7,Two year,DSL,Electronic check,52.25,362.89,0,No
+C0598,Female,0,72,One year,Fiber optic,Bank transfer,86.1,6020.96,0,No
+C0960,Male,1,11,One year,Fiber optic,Mailed check,77.85,855.92,1,No
+C0510,Male,0,21,One year,Fiber optic,Bank transfer,80.41,1687.72,1,No
+C0781,Female,0,18,Month-to-month,No,Mailed check,23.24,404.15,1,Yes
+C0887,Male,1,12,Month-to-month,Fiber optic,Electronic check,65.58,759.87,0,No
+C0074,Male,0,26,Month-to-month,DSL,Credit card,53.83,1334.42,0,Yes
+C0118,Male,0,72,One year,Fiber optic,Electronic check,83.14,5872.05,1,No
+C1093,Female,0,9,Month-to-month,Fiber optic,Electronic check,81.27,710.15,0,Yes
+C0894,Female,0,7,Month-to-month,Fiber optic,Mailed check,70.45,483.54,2,Yes
+C1117,Female,0,26,Month-to-month,DSL,Electronic check,44.0,1194.36,1,Yes
+C0368,Male,0,43,Month-to-month,DSL,Electronic check,60.11,2647.36,0,Yes
+C0006,Female,0,42,Month-to-month,No,Mailed check,27.59,1202.91,3,No
+C1141,Female,0,13,Month-to-month,No,Bank transfer,15.0,196.88,2,Yes
+C0876,Female,0,31,Month-to-month,Fiber optic,Credit card,72.84,2175.41,2,Yes
+C0652,Female,0,3,One year,Unknown,Credit card,79.75,234.75,0,No
+C1008,Female,0,17,One year,Fiber optic,Bank transfer,77.35,1313.32,1,Yes
+C0331,Female,0,9,Two year,Fiber optic,Electronic check,91.99,817.74,0,Yes
+C0944,Male,0,29,Month-to-month,Fiber optic,Electronic check,88.38,2548.31,2,Yes
+C0012,Female,0,27,Month-to-month,Fiber optic,Electronic check,78.21,2014.95,1,No
+C1146,Male,0,20,One year,No,Electronic check,15.0,285.43,0,Yes
+C0983,Female,0,12,Month-to-month,Fiber optic,Bank transfer,92.06,1127.25,3,Yes
+C0694,Female,0,34,Two year,Fiber optic,Credit card,73.72,2393.33,0,No
+C0265,Female,0,15,Month-to-month,Fiber optic,Mailed check,76.84,1168.88,2,Yes
+C0895,Female,0,58,Month-to-month,DSL,Electronic check,49.09,2847.22,0,No
+C0057,Female,1,7,Month-to-month,DSL,Electronic check,56.83,371.22,2,Yes
+C0251,Male,0,36,One year,DSL,Electronic check,49.28,1801.8,0,No
+C0613,Female,0,72,Month-to-month,Fiber optic,Credit card,84.53,5863.18,2,No
+C1171,Female,0,9,Month-to-month,Fiber optic,Mailed check,79.76,838.54,0,Yes
+C0055,Male,1,27,Two year,No,Electronic check,15.0,394.42,0,No
+C0590,Female,0,17,One year,DSL,Mailed check,53.25,926.38,2,No
+C0234,Female,0,22,Month-to-month,Fiber optic,Bank transfer,66.6,1485.87,1,Yes
+C0085,Female,0,55,One year,No,Electronic check,19.26,1023.77,2,No
+C0129,Female,0,11,Two year,Fiber optic,Mailed check,83.74,903.8,1,Yes
+C0945,Male,0,4,Month-to-month,DSL,Mailed check,44.78,176.81,3,Yes
+C0496,Male,0,43,Month-to-month,DSL,Electronic check,40.29,1769.82,0,No
+C0126,Female,0,26,One year,Fiber optic,Bank transfer,58.0,1498.97,2,No
+C0673,Female,0,7,Month-to-month,Fiber optic,Credit card,86.99,632.15,2,No
+C0188,Male,0,21,One year,No,Electronic check,24.15,499.21,0,No
+C1169,Female,0,12,Month-to-month,No,Electronic check,16.55,193.78,2,No
+C0702,Female,0,26,Month-to-month,Fiber optic,Mailed check,74.08,1885.27,2,Yes
+C0152,Male,0,45,Two year,DSL,Bank transfer,30.91,1442.41,2,No
+C1019,Male,1,16,Month-to-month,Fiber optic,Electronic check,76.18,1173.75,1,No
+C0674,Male,0,26,Two year,DSL,Bank transfer,45.88,1193.08,1,No
+C0389,Female,0,33,Two year,DSL,Mailed check,54.94,1721.22,0,No
+C0138,Male,0,29,Month-to-month,No,Electronic check,18.48,524.3,1,Yes
+C1198,Female,0,15,Month-to-month,No,Credit card,15.61,233.66,2,No
+C0173,Female,0,31,One year,Fiber optic,Bank transfer,71.81,2254.73,1,No
+C0888,Male,0,12,One year,DSL,Bank transfer,50.025000000000006,614.26,0,No
+C0966,Female,0,35,One year,Unknown,Electronic check,51.11,1770.27,0,No
+C1182,Female,0,17,Month-to-month,No,Electronic check,31.7,541.1,1,No
+C0967,Female,0,18,Month-to-month,Fiber optic,Electronic check,70.96,1213.9,1,Yes
+C0224,Male,0,23,Month-to-month,Fiber optic,Electronic check,66.47,1514.9,3,Yes
+C0900,Female,0,22,Month-to-month,Fiber optic,Mailed check,62.05,1388.69,1,Yes
+C0178,Male,0,34,One year,Fiber optic,Electronic check,73.71,2619.89,0,Yes
+C0656,Female,1,39,Month-to-month,DSL,Credit card,57.56,2311.19,0,No
+C1129,Female,0,12,Month-to-month,DSL,Credit card,50.025000000000006,563.03,1,No
+C0605,Female,0,19,Two year,DSL,Credit card,54.85,989.46,2,No
+C0375,Female,0,19,Month-to-month,DSL,Electronic check,52.63,1070.53,0,No
+C0492,Female,0,7,Month-to-month,DSL,Mailed check,37.09,263.84,0,No
+C0925,Male,0,72,Month-to-month,DSL,Credit card,50.76,3716.15,0,No
+C1133,Female,0,20,Month-to-month,Fiber optic,Bank transfer,77.78,1555.19,0,No
+C0542,Male,0,64,Month-to-month,No,Electronic check,19.22,1194.27,1,Yes
+C0300,Male,0,21,Month-to-month,DSL,Bank transfer,47.06,1014.24,1,No
+C0861,Female,0,46,One year,No,Credit card,21.65,988.1,2,No
+C0529,Female,0,72,Month-to-month,Fiber optic,Electronic check,86.69,6374.69,1,No
+C0051,Female,0,8,Month-to-month,DSL,Credit card,45.21,334.32,0,No
+C0875,Female,0,10,Month-to-month,DSL,Bank transfer,40.33,414.49,1,No
+C0775,Female,1,40,Two year,No,Credit card,25.72,1011.91,2,No
+C0933,Male,0,68,Two year,Fiber optic,Bank transfer,78.5,5202.66,2,No
+C0033,Male,0,37,Month-to-month,Fiber optic,Electronic check,84.39,3206.18,1,No
+C0258,Male,1,38,Two year,Fiber optic,Bank transfer,80.34,2966.51,1,No
+C0239,Male,0,4,One year,DSL,Electronic check,50.025000000000006,139.93,1,Yes
+C1079,Male,1,61,Month-to-month,No,Electronic check,15.96,963.63,0,No
+C0497,Male,0,12,Month-to-month,Fiber optic,Electronic check,94.06,1137.66,1,Yes
+C0896,Female,0,38,Month-to-month,DSL,Credit card,50.025000000000006,2284.49,1,No
+C0535,Female,1,49,Month-to-month,Unknown,Credit card,57.25,2706.93,0,No
+C0826,Male,0,48,Month-to-month,DSL,Bank transfer,34.78,1711.48,3,No
+C0573,Male,0,72,Two year,No,Credit card,19.63,1418.75,1,No
+C0355,Female,1,21,One year,Fiber optic,Electronic check,75.82,1591.11,0,Yes
+C0940,Female,0,30,Month-to-month,Fiber optic,Credit card,91.2,2704.17,0,No
+C0684,Female,0,72,Month-to-month,Fiber optic,Credit card,91.07,6463.5,1,No
+C0475,Female,1,55,Two year,Fiber optic,Credit card,97.49,5029.19,2,No
+C0473,Male,0,26,Month-to-month,Fiber optic,Credit card,70.75,2002.8,3,No
+C0485,Male,1,37,Month-to-month,Unknown,Credit card,83.88,3185.26,1,No
+C1155,Male,0,72,One year,Fiber optic,Bank transfer,90.36,6436.36,0,No
+C0760,Female,0,28,One year,Fiber optic,Credit card,96.08,2734.43,3,No
+C0369,Male,0,14,Month-to-month,DSL,Mailed check,62.17,828.29,2,Yes
+C0714,Female,0,51,Month-to-month,Fiber optic,Bank transfer,85.06,4352.14,0,Yes
+C0504,Female,0,24,One year,DSL,Mailed check,50.025000000000006,421.55,0,No
+C0835,Female,0,49,Month-to-month,Unknown,Bank transfer,92.41,4455.13,1,Yes
+C1027,Male,0,9,Two year,No,Electronic check,15.32,131.07,2,Yes
+C0843,Female,0,25,Month-to-month,No,Mailed check,22.32,537.59,1,Yes
+C0551,Female,0,3,One year,Fiber optic,Electronic check,70.57,211.08,1,Yes
+C0304,Female,0,18,Two year,No,Bank transfer,15.0,270.08,3,No
+C0764,Female,0,26,Month-to-month,Fiber optic,Electronic check,84.04,2231.5,1,Yes
+C0947,Female,0,25,Month-to-month,DSL,Credit card,51.73,1267.95,0,No
+C0479,Female,0,7,Month-to-month,Fiber optic,Electronic check,69.1,473.81,1,Yes
+C1024,Female,0,17,Month-to-month,No,Bank transfer,20.73,357.1,0,Yes
+C0639,Female,0,10,Two year,No,Mailed check,15.0,150.89,2,No
+C0562,Male,0,7,Month-to-month,DSL,Electronic check,48.67,337.75,1,Yes
+C0920,Female,0,42,Month-to-month,No,Bank transfer,15.0,598.9,1,No
+C1006,Female,0,72,Month-to-month,No,Credit card,25.13,1915.83,1,No
+C0672,Female,0,20,One year,Fiber optic,Electronic check,77.61,1543.71,0,No
+C1163,Female,0,1,Two year,Unknown,Electronic check,40.48,39.05,1,No
+C0959,Female,0,6,Month-to-month,No,Bank transfer,16.35,95.09,1,Yes
+C1066,Male,1,24,Month-to-month,No,Bank transfer,16.16,102.0,1,No
+C0769,Male,0,37,Month-to-month,Fiber optic,Mailed check,71.07,2602.98,2,No
+C0161,Female,0,47,Month-to-month,Fiber optic,Bank transfer,85.04,3841.42,1,No
+C0629,Female,1,35,One year,Fiber optic,Electronic check,96.12,3374.29,0,Yes
+C0434,Male,1,14,Two year,DSL,Mailed check,50.025000000000006,601.53,2,No
+C0942,Male,0,23,One year,Fiber optic,Bank transfer,91.97,2168.93,1,No
+C1191,Male,0,6,One year,Fiber optic,Electronic check,76.0,434.77,1,No
+C0990,Female,0,15,Month-to-month,No,Mailed check,21.77,341.32,0,No
+C0927,Female,0,36,Month-to-month,No,Credit card,18.94,694.17,0,No
+C0816,Female,0,38,One year,Fiber optic,Bank transfer,80.4,3079.15,1,Yes
+C0493,Female,0,29,Month-to-month,Fiber optic,Bank transfer,83.35,2436.97,0,Yes
+C0386,Male,1,40,Month-to-month,DSL,Credit card,43.05,1779.02,1,No
+C0282,Male,0,72,Month-to-month,No,Electronic check,23.69,1698.55,1,No
+C0484,Female,1,58,Month-to-month,DSL,Credit card,49.18,2867.92,1,No
+C0283,Female,1,47,Month-to-month,Fiber optic,Bank transfer,77.86,3681.76,1,Yes
+C0438,Female,0,15,One year,Fiber optic,Bank transfer,90.56,1372.93,0,No
+C0568,Male,0,23,One year,DSL,Electronic check,44.07,1031.79,0,No
+C1142,Male,0,26,Month-to-month,DSL,Bank transfer,49.06,1298.5,2,Yes
+C0742,Female,0,30,Two year,DSL,Electronic check,51.72,1630.03,2,No
+C1167,Male,1,11,Two year,DSL,Mailed check,40.82,437.84,2,Yes
+C1030,Male,0,35,Month-to-month,Fiber optic,Bank transfer,80.45,2971.04,2,No
+C1160,Male,1,35,Month-to-month,Fiber optic,Electronic check,91.76,3261.71,2,Yes
+C0122,Female,0,8,One year,DSL,Bank transfer,42.53,329.73,2,No
+C0837,Female,0,14,One year,Fiber optic,Credit card,79.57,1108.68,1,No
+C0017,Female,0,4,Month-to-month,No,Electronic check,34.05,140.28,0,Yes
+C1012,Female,0,12,Month-to-month,Fiber optic,Mailed check,70.29,849.81,2,Yes
+C1183,Female,0,3,Month-to-month,DSL,Electronic check,34.98,106.07,0,Yes
+C0708,Female,0,24,Month-to-month,DSL,Electronic check,53.99,319.63,0,No
+C0836,Female,1,16,Two year,Fiber optic,Mailed check,77.41,1173.22,1,No
+C0294,Male,0,64,Month-to-month,Fiber optic,Credit card,73.17,4903.47,1,Yes
+C0671,Female,1,39,Month-to-month,No,Electronic check,15.0,587.16,0,No
+C0720,Female,1,9,One year,No,Bank transfer,19.3,172.82,1,No
+C0107,Female,0,27,Month-to-month,Fiber optic,Mailed check,75.38,1935.02,1,Yes
+C0024,Female,0,32,Month-to-month,Fiber optic,Electronic check,74.39,2417.19,2,Yes
+C0070,Male,0,8,Two year,Fiber optic,Bank transfer,64.51,496.18,2,No
+C0680,Female,0,13,One year,No,Bank transfer,15.0,193.55,1,Yes
+C0886,Female,0,66,One year,Fiber optic,Credit card,83.35,5541.02,0,No
+C0698,Female,0,24,Month-to-month,Fiber optic,Credit card,92.53,646.55,0,Yes
+C0104,Male,1,18,Month-to-month,Fiber optic,Electronic check,76.74,1440.4,2,Yes
+C1044,Male,0,31,Month-to-month,DSL,Mailed check,48.83,1534.84,1,Yes
+C0810,Female,0,11,Month-to-month,No,Electronic check,19.87,305.84,0,Yes
+C0637,Male,0,34,One year,Fiber optic,Credit card,78.25,2660.5,1,Yes
+C1152,Female,0,47,Month-to-month,DSL,Bank transfer,41.71,2050.92,0,No
+C0075,Female,0,24,Two year,Fiber optic,Mailed check,91.34,3088.22,0,No
+C0508,Male,0,24,One year,Fiber optic,Electronic check,69.66,1488.27,1,Yes
+C1107,Male,0,35,Month-to-month,DSL,Bank transfer,59.69,2085.19,0,No
+C0219,Male,0,16,Two year,No,Bank transfer,15.0,241.26,2,No
+C1084,Female,0,22,Two year,No,Electronic check,15.0,308.82,0,No
+C0768,Male,0,16,Two year,No,Mailed check,15.47,253.82,1,No
+C0266,Female,1,30,Month-to-month,DSL,Bank transfer,36.66,1106.43,0,Yes
+C0632,Male,0,21,Month-to-month,Fiber optic,Electronic check,78.85,1637.49,1,No
+C0580,Male,0,42,Month-to-month,No,Electronic check,25.33,1011.17,2,Yes
+C0435,Male,0,21,One year,DSL,Credit card,60.89,1361.94,0,No
+C0111,Male,1,24,Month-to-month,Fiber optic,Mailed check,84.5,1525.71,2,Yes
+C0041,Male,0,23,Two year,Fiber optic,Mailed check,77.66,1833.81,2,Yes
+C0721,Male,0,32,Month-to-month,Unknown,Mailed check,86.32,2652.27,0,Yes
+C0277,Male,0,1,One year,DSL,Electronic check,48.54,47.26,2,No
+C0340,Female,0,16,Month-to-month,Fiber optic,Bank transfer,81.06,1280.61,0,Yes
+C1001,Female,1,10,Two year,Fiber optic,Credit card,72.42,724.49,2,No
+C0569,Female,0,34,Month-to-month,DSL,Credit card,51.55,1734.36,1,No
+C0186,Male,0,28,Month-to-month,Fiber optic,Mailed check,85.7,2368.63,3,No
+C0756,Male,0,55,Month-to-month,DSL,Mailed check,56.14,2982.98,2,Yes
+C0855,Male,0,42,Two year,Fiber optic,Electronic check,91.9,3641.95,1,No
+C0062,Female,1,25,Month-to-month,Unknown,Mailed check,81.49,2095.57,3,No
+C0679,Female,1,13,Month-to-month,DSL,Electronic check,52.35,693.52,1,No
+C0388,Female,0,72,Month-to-month,Fiber optic,Credit card,91.31,6384.06,1,No
+C0953,Female,0,35,Month-to-month,DSL,Credit card,45.33,1504.65,1,No
+C1103,Female,0,8,One year,Fiber optic,Mailed check,88.1,693.62,2,No
+C0252,Male,0,25,Month-to-month,No,Bank transfer,24.23,623.27,2,No
+C1054,Female,0,24,Month-to-month,DSL,Electronic check,39.59,921.02,2,No
+C0686,Female,1,30,Month-to-month,Fiber optic,Electronic check,87.36,2673.7,1,Yes
+C0308,Female,0,50,Two year,No,Electronic check,15.0,786.9,1,No
+C0194,Male,0,11,Month-to-month,Unknown,Mailed check,92.17,1070.87,1,Yes
+C0503,Female,0,24,Two year,No,Bank transfer,24.49,350.39,1,No
+C0034,Female,0,37,Two year,DSL,Bank transfer,33.47,1249.98,0,No
+C0823,Male,0,25,Month-to-month,Fiber optic,Electronic check,77.43,1864.02,2,Yes
+C0058,Male,0,3,Month-to-month,Unknown,Bank transfer,84.98,252.13,1,No
+C0792,Male,0,54,Month-to-month,DSL,Credit card,50.77,2734.12,1,Yes
+C0359,Male,0,41,Month-to-month,Fiber optic,Credit card,88.81,3782.92,1,Yes
+C0046,Female,1,27,One year,No,Mailed check,15.0,417.81,1,No
+C0989,Male,0,39,Two year,No,Bank transfer,15.0,569.25,3,No
+C0803,Female,1,9,Month-to-month,Fiber optic,Bank transfer,83.67,767.04,0,Yes
+C0069,Male,0,24,Month-to-month,Fiber optic,Mailed check,75.67,2408.36,0,Yes
+C0319,Female,0,10,Month-to-month,Fiber optic,Credit card,78.51,708.24,1,No
+C0292,Male,1,26,Two year,No,Mailed check,21.71,556.78,0,No
+C0047,Male,0,37,Month-to-month,DSL,Electronic check,58.63,2062.53,3,Yes
+C0278,Female,0,26,One year,Fiber optic,Bank transfer,85.0,2185.19,4,No
+C1130,Female,0,25,Two year,DSL,Electronic check,38.09,946.6,0,No
+C0298,Male,0,10,Month-to-month,Fiber optic,Electronic check,79.45,779.65,1,Yes
+C0225,Female,0,13,Month-to-month,Fiber optic,Mailed check,71.22,951.78,1,Yes
+C0847,Male,1,59,Month-to-month,No,Credit card,22.6,1446.44,1,No
+C0919,Male,0,25,One year,Fiber optic,Mailed check,77.24,1944.17,2,No
+C0365,Male,1,46,Month-to-month,Fiber optic,Credit card,77.47,3464.71,0,Yes
+C1023,Female,0,22,One year,Fiber optic,Bank transfer,89.42,1981.87,2,No
+C0367,Male,1,63,Two year,No,Mailed check,15.0,943.21,2,No
+C0001,Male,0,72,Month-to-month,DSL,Bank transfer,51.97,3721.83,2,Yes
+C0067,Female,0,2,One year,No,Bank transfer,24.2,45.4,2,No
+C1136,Male,0,31,Month-to-month,DSL,Electronic check,40.91,1247.69,0,Yes
+C0032,Male,0,40,One year,Fiber optic,Credit card,81.37,3314.67,3,No
+C0808,Male,0,5,Month-to-month,No,Electronic check,36.07,185.53,1,Yes
+C0295,Female,0,17,Two year,DSL,Bank transfer,52.86,877.77,1,No
+C0114,Male,1,34,One year,DSL,Bank transfer,38.99,1280.09,0,Yes
+C0246,Male,1,1,One year,No,Electronic check,15.0,14.92,1,Yes
+C0416,Female,0,27,One year,Fiber optic,Electronic check,66.19,1789.38,1,No
+C0162,Female,0,21,Month-to-month,Fiber optic,Credit card,79.76,1870.73,1,Yes
+C0412,Male,0,11,Month-to-month,Fiber optic,Bank transfer,78.73,841.53,5,Yes
+C0898,Male,0,39,Month-to-month,No,Electronic check,15.0,588.46,3,Yes
+C0762,Female,0,36,Month-to-month,DSL,Credit card,45.92,1733.42,0,No
+C0695,Male,0,37,One year,Fiber optic,Mailed check,78.3,2946.88,5,Yes
+C1139,Female,0,35,Month-to-month,DSL,Credit card,35.74,1224.12,1,Yes
+C0993,Male,1,16,Two year,Unknown,Credit card,31.17,489.17,0,No
+C0248,Male,0,33,One year,DSL,Credit card,52.76,1735.68,3,Yes
+C1124,Male,0,20,Month-to-month,DSL,Mailed check,54.25,1109.26,0,Yes
+C1121,Male,0,6,One year,DSL,Electronic check,45.82,282.06,1,No
+C0093,Female,0,72,Month-to-month,Fiber optic,Mailed check,78.52,5288.11,2,Yes
+C0382,Female,0,10,Two year,DSL,Electronic check,55.67,553.43,2,No
+C0115,Female,0,45,Month-to-month,Fiber optic,Bank transfer,69.09,3219.75,3,Yes
+C0787,Male,0,26,One year,DSL,Electronic check,51.63,1359.48,1,No
+C0255,Female,0,53,Month-to-month,DSL,Bank transfer,48.86,2673.73,0,Yes
+C0430,Female,0,9,Month-to-month,DSL,Electronic check,56.04,468.1,1,Yes
+C0589,Female,0,39,Month-to-month,DSL,Credit card,55.7,2340.05,0,No
+C0179,Female,0,11,Month-to-month,DSL,Electronic check,56.99,595.51,3,Yes
+C0647,Male,0,32,Month-to-month,DSL,Credit card,59.33,1891.89,0,No
+C0390,Male,0,21,Month-to-month,DSL,Bank transfer,69.84,1459.07,1,Yes
+C0133,Male,0,15,One year,DSL,Electronic check,51.23,817.59,0,No
+C0765,Male,0,45,Month-to-month,DSL,Electronic check,47.77,2294.87,1,No
+C1150,Female,0,49,One year,Fiber optic,Electronic check,84.21,4137.88,3,No
+C0863,Male,0,19,Month-to-month,No,Bank transfer,19.87,340.88,1,No
+C0290,Male,0,22,One year,Fiber optic,Bank transfer,83.91,1901.81,3,No
+C0247,Female,0,25,One year,Fiber optic,Electronic check,75.67,1869.85,0,Yes
+C0553,Female,0,14,One year,DSL,Electronic check,53.19,719.13,1,No
+C0090,Female,0,1,Month-to-month,No,Mailed check,22.77,22.36,4,Yes
+C0193,Female,0,22,One year,Fiber optic,Mailed check,80.49,1755.74,0,No
+C0921,Female,0,12,Month-to-month,DSL,Credit card,67.5,793.66,2,Yes
+C1200,Female,0,11,Two year,Fiber optic,Credit card,75.38,806.19,1,No
+C0437,Female,0,20,Month-to-month,Fiber optic,Mailed check,79.76,1838.35,1,Yes
+C1128,Female,1,72,Month-to-month,DSL,Electronic check,39.97,2955.89,1,No
+C1088,Female,0,24,One year,Fiber optic,Mailed check,70.79,832.38,4,Yes
+C0147,Male,0,15,Month-to-month,Fiber optic,Electronic check,69.5,997.56,4,Yes
+C0119,Male,0,13,Month-to-month,Fiber optic,Bank transfer,80.91,971.88,1,Yes
+C1172,Female,0,39,One year,No,Credit card,23.69,901.72,0,No
+C0772,Female,1,13,Month-to-month,DSL,Electronic check,51.17,667.84,1,Yes
+C0693,Female,0,12,Month-to-month,Fiber optic,Mailed check,91.65,1124.64,4,Yes
+C0753,Male,0,2,Month-to-month,No,Bank transfer,31.71,62.34,3,Yes
+C0676,Female,0,34,Month-to-month,DSL,Mailed check,49.9,1683.46,0,No
+C0027,Male,0,2,One year,DSL,Electronic check,60.45,122.97,2,Yes
+C0015,Female,0,9,Two year,No,Mailed check,20.73,195.67,2,No
+C0501,Male,0,20,Month-to-month,Fiber optic,Electronic check,84.81,1680.51,0,Yes
+C0083,Male,0,39,One year,DSL,Credit card,48.07,1870.76,0,No
+C0738,Male,0,6,Month-to-month,Unknown,Credit card,81.0,488.77,1,Yes
+C1029,Female,0,59,Month-to-month,Fiber optic,Mailed check,91.23,5300.88,1,No
+C0755,Female,1,40,One year,Fiber optic,Electronic check,85.67,3507.03,1,No
+C0601,Female,0,25,Month-to-month,DSL,Bank transfer,48.46,1238.0,0,No
+C0274,Female,0,31,One year,Fiber optic,Bank transfer,71.26,2189.64,2,No
+C0820,Female,1,1,Two year,No,Electronic check,17.45,17.27,2,No
+C0467,Male,0,20,Month-to-month,DSL,Electronic check,48.45,959.7,1,Yes
+C1126,Female,0,35,One year,DSL,Bank transfer,46.41,1589.9,3,No
+C1069,Male,0,31,One year,Fiber optic,Electronic check,77.23,2337.94,2,No
+C1081,Female,0,27,One year,Fiber optic,Mailed check,76.46,2142.44,3,Yes
+C0448,Female,0,18,Month-to-month,No,Mailed check,25.41,445.32,1,No
+C0372,Female,0,23,Two year,No,Electronic check,15.0,345.43,0,No
+C0558,Female,0,25,Month-to-month,DSL,Bank transfer,40.91,1005.43,0,No
+C0272,Male,0,18,One year,Fiber optic,Credit card,67.67,1258.58,3,No
+C0606,Female,0,6,Two year,No,Credit card,15.0,91.87,0,No
+C0450,Male,0,60,Month-to-month,DSL,Electronic check,62.08,3758.84,1,Yes
+C1045,Female,0,29,Month-to-month,DSL,Credit card,47.99,1401.53,0,No
+C0524,Female,0,42,Month-to-month,DSL,Credit card,41.96,1682.04,1,No
+C0215,Female,0,19,Month-to-month,Fiber optic,Electronic check,74.06,1372.21,2,Yes
+C0345,Female,0,12,Month-to-month,Fiber optic,Electronic check,86.74,1055.54,0,Yes
+C1065,Female,1,72,Month-to-month,DSL,Credit card,56.91,3756.7,1,No
+C0148,Male,0,14,Month-to-month,Fiber optic,Credit card,90.05,1312.53,5,Yes
+C0413,Male,0,28,One year,Fiber optic,Credit card,70.33,1992.0,0,No
+C0400,Male,0,36,Two year,DSL,Credit card,46.78,1683.93,1,No
+C0343,Female,0,7,One year,Fiber optic,Electronic check,84.33,625.27,2,No
+C0174,Female,1,43,One year,Fiber optic,Mailed check,77.12,3420.71,2,Yes
+C1110,Male,0,28,Two year,Fiber optic,Electronic check,77.21,2150.02,0,No
+C0709,Male,0,11,Two year,Fiber optic,Electronic check,70.85,768.31,0,No
+C0306,Male,0,38,One year,Fiber optic,Bank transfer,75.95,2860.37,1,No
+C0544,Male,0,10,One year,No,Electronic check,20.63,200.24,0,No
+C0917,Female,0,12,Month-to-month,Fiber optic,Electronic check,94.44,1120.24,3,Yes
+C0727,Female,0,22,One year,Fiber optic,Credit card,87.49,1960.57,0,No
+C0882,Female,0,42,Two year,Fiber optic,Electronic check,83.64,3637.52,1,No
+C0286,Female,0,41,One year,Fiber optic,Bank transfer,78.95,3259.64,4,Yes
+C0222,Male,0,55,Month-to-month,DSL,Mailed check,47.91,2700.77,0,No
+C0731,Female,0,42,Month-to-month,DSL,Bank transfer,52.3,2160.19,4,No
+C0023,Male,1,16,Two year,DSL,Credit card,61.82,951.2,2,Yes
+C0918,Female,1,15,Month-to-month,DSL,Bank transfer,39.29,605.17,1,Yes
+C0117,Male,0,21,Month-to-month,No,Bank transfer,19.87,319.57,0,No
+C0930,Female,0,6,Month-to-month,DSL,Credit card,50.14,291.16,0,Yes
+C0362,Female,0,21,Month-to-month,DSL,Electronic check,57.06,1177.94,0,No
+C0096,Male,0,9,Month-to-month,Unknown,Mailed check,67.2,604.8,3,Yes
+C0985,Female,0,17,Month-to-month,Fiber optic,Electronic check,79.05,1377.13,1,Yes
+C0262,Male,0,24,Month-to-month,Fiber optic,Mailed check,93.15,4724.98,3,Yes
+C0946,Male,0,8,Month-to-month,DSL,Electronic check,51.8,396.98,0,No
+C0996,Female,0,44,One year,DSL,Mailed check,51.86,2174.85,1,No
+C0779,Male,0,22,One year,Fiber optic,Electronic check,80.13,1797.41,1,Yes
+C0180,Female,1,22,Two year,Fiber optic,Electronic check,79.52,1701.83,1,Yes
+C0103,Female,0,40,Month-to-month,DSL,Bank transfer,48.72,1922.59,2,No
+C0575,Male,0,27,Month-to-month,DSL,Mailed check,50.29,1299.43,2,Yes
+C0564,Male,0,41,Month-to-month,No,Credit card,30.49,1296.98,3,Yes
+C0185,Male,1,11,Month-to-month,DSL,Mailed check,49.94,539.84,0,Yes
+C0468,Female,0,1,One year,Fiber optic,Bank transfer,66.05,63.58,0,No
+C1010,Female,0,8,One year,No,Mailed check,15.0,118.02,1,No
+C0969,Female,0,24,Month-to-month,Fiber optic,Electronic check,85.08,1994.92,2,Yes
+C0072,Male,0,21,Month-to-month,DSL,Electronic check,42.38,899.7,2,Yes
+C1033,Female,0,24,Month-to-month,Unknown,Mailed check,70.42,1496.47,3,No
+C1095,Male,0,4,One year,Fiber optic,Bank transfer,77.41,318.51,1,No
+C0347,Female,0,37,Two year,Fiber optic,Bank transfer,78.95,2992.63,3,No
+C1189,Female,1,56,Month-to-month,DSL,Bank transfer,46.27,2621.66,0,No
+C1109,Female,1,13,Month-to-month,No,Mailed check,23.65,317.82,1,No
+C0030,Male,0,44,One year,Fiber optic,Electronic check,68.83,2929.06,2,No
+C1004,Female,0,10,Month-to-month,Fiber optic,Credit card,76.42,765.96,2,Yes
+C0040,Female,1,24,Month-to-month,Fiber optic,Mailed check,71.33,698.53,1,Yes
+C0505,Male,0,13,Two year,Unknown,Electronic check,88.85,1125.16,2,No
+C0158,Female,1,2,Month-to-month,Fiber optic,Bank transfer,83.16,183.46,1,Yes
+C0659,Male,0,13,One year,DSL,Electronic check,43.25,548.45,3,No
+C0636,Female,0,17,Two year,Unknown,Electronic check,84.35,1474.77,1,Yes
+C1082,Female,0,53,Month-to-month,Fiber optic,Credit card,87.68,4798.16,2,No
+C0395,Female,1,24,One year,DSL,Credit card,48.43,1211.56,1,Yes
+C0053,Male,0,26,Month-to-month,Fiber optic,Credit card,63.63,1710.09,2,Yes
+C0842,Female,0,19,Month-to-month,Fiber optic,Mailed check,85.85,1635.41,1,Yes
+C0360,Female,0,40,Month-to-month,DSL,Credit card,58.02,2545.93,0,No
+C0746,Male,0,24,One year,DSL,Electronic check,56.8,3748.44,2,No
+C0403,Male,0,9,One year,Fiber optic,Credit card,79.76,730.91,0,No
+C0422,Female,0,13,Month-to-month,DSL,Electronic check,55.88,708.95,1,Yes
+C0449,Female,1,13,One year,No,Credit card,23.63,303.41,1,No
+C0678,Male,0,30,Month-to-month,DSL,Electronic check,45.79,1323.8,2,Yes
+C0285,Male,0,2,Month-to-month,Fiber optic,Electronic check,92.63,198.36,0,Yes
+C0593,Male,1,26,One year,DSL,Electronic check,47.01,1220.7,1,No
+C0228,Female,0,8,Month-to-month,No,Credit card,20.94,151.46,1,No
+C0354,Male,0,27,Month-to-month,Fiber optic,Electronic check,63.46,1753.35,2,Yes
+C0010,Male,0,69,One year,Fiber optic,Mailed check,85.23,5728.67,2,No
+C1011,Male,0,22,Month-to-month,DSL,Electronic check,38.89,821.59,1,No
+C0031,Male,1,18,Month-to-month,DSL,Electronic check,39.55,723.96,0,Yes
+C1092,Male,1,19,Two year,Fiber optic,Electronic check,83.51,1644.89,0,No
+C0692,Female,0,18,Month-to-month,Fiber optic,Credit card,79.23,1379.9,1,Yes
+C0957,Male,1,57,Month-to-month,Fiber optic,Mailed check,78.95,4677.88,1,Yes
+C0899,Male,0,30,Month-to-month,DSL,Electronic check,50.025000000000006,1719.42,2,Yes
+C0335,Male,0,41,Month-to-month,Fiber optic,Electronic check,72.56,2954.08,1,Yes
+C0463,Female,0,26,One year,DSL,Bank transfer,44.11,1133.69,0,No
+C0008,Female,0,18,Month-to-month,DSL,Credit card,59.43,1111.46,1,Yes
+C0518,Male,0,3,Month-to-month,No,Credit card,20.61,58.92,1,No
+C0198,Male,0,15,Month-to-month,Fiber optic,Electronic check,68.92,1015.51,1,Yes
+C0297,Female,0,49,Two year,Fiber optic,Credit card,79.42,3957.83,1,Yes
+C0393,Male,0,42,Month-to-month,DSL,Electronic check,59.79,2550.92,0,Yes
+C0799,Male,0,19,Month-to-month,Fiber optic,Mailed check,74.65,1405.54,2,No
+C1091,Female,0,33,Month-to-month,Fiber optic,Electronic check,79.48,2522.07,0,Yes
+C0939,Male,0,38,Month-to-month,No,Bank transfer,18.52,673.7,2,No
+C0824,Female,0,25,One year,DSL,Mailed check,45.07,1119.39,2,No
+C0511,Female,0,15,Month-to-month,DSL,Mailed check,52.94,773.92,0,No
+C0801,Male,0,23,Month-to-month,Fiber optic,Mailed check,82.21,1923.68,3,Yes
+C0123,Female,0,36,Month-to-month,No,Mailed check,15.0,533.99,1,No
+C0689,Male,0,10,Month-to-month,DSL,Credit card,50.22,496.65,4,Yes
+C0379,Male,0,50,One year,Fiber optic,Bank transfer,85.07,4108.74,2,No
+C0039,Male,0,18,Two year,DSL,Bank transfer,55.19,984.64,0,Yes
+C1072,Male,0,43,One year,DSL,Electronic check,50.36,2147.59,3,No
+C0806,Female,0,22,Month-to-month,Fiber optic,Credit card,78.05,1737.61,1,Yes
+C0766,Female,0,33,Two year,DSL,Bank transfer,52.64,1615.47,1,No
+C0163,Male,0,13,Two year,Unknown,Bank transfer,96.95,1224.8,0,Yes
+C0068,Male,1,14,Two year,Fiber optic,Mailed check,81.79,1180.72,1,Yes
+C0125,Female,0,23,Month-to-month,Fiber optic,Credit card,74.97,1800.99,2,Yes
+C0552,Male,1,1,Month-to-month,Fiber optic,Electronic check,72.01,68.91,0,Yes
+C0005,Male,1,20,Two year,No,Electronic check,26.54,540.09,3,No
+C1078,Male,0,32,Month-to-month,DSL,Electronic check,51.05,1621.04,0,No
+C0301,Male,0,17,One year,No,Credit card,21.12,353.18,2,No
+C0612,Male,0,12,Month-to-month,DSL,Electronic check,45.21,530.23,2,Yes
+C0748,Male,0,22,Month-to-month,DSL,Electronic check,41.13,890.87,0,No
+C0288,Female,0,62,Month-to-month,Fiber optic,Electronic check,75.11,4823.19,2,Yes
+C0749,Male,0,11,One year,Fiber optic,Bank transfer,87.82,933.79,0,Yes
+C0428,Female,0,61,Month-to-month,Fiber optic,Bank transfer,71.11,4263.36,0,No
+C0609,Female,0,58,Month-to-month,DSL,Bank transfer,45.89,2747.16,0,Yes
+C0907,Male,0,14,Month-to-month,DSL,Electronic check,50.18,714.74,0,No
+C0970,Male,0,10,Two year,Fiber optic,Bank transfer,85.48,860.3,0,No
+C0832,Male,0,18,One year,No,Mailed check,15.0,263.34,1,No
+C0507,Female,0,25,Month-to-month,DSL,Electronic check,51.31,1381.6,2,Yes
+C0357,Male,0,24,Month-to-month,No,Electronic check,15.0,863.93,0,No
+C0935,Male,0,5,Month-to-month,Fiber optic,Mailed check,71.19,354.69,2,No
+C0353,Male,0,72,Month-to-month,DSL,Electronic check,56.05,3808.13,2,No
+C1127,Female,0,12,Month-to-month,No,Credit card,19.29,232.8,0,No
+C0992,Female,0,31,Two year,Fiber optic,Electronic check,85.57,2671.34,2,No
+C0699,Male,0,38,Two year,Fiber optic,Mailed check,83.59,3181.76,0,No
+C1005,Male,0,17,Month-to-month,No,Electronic check,26.49,458.54,1,Yes
+C0668,Female,1,11,One year,DSL,Mailed check,64.39,705.29,4,No
+C0261,Female,0,52,Month-to-month,Fiber optic,Bank transfer,68.58,3576.41,3,Yes
+C1025,Female,0,42,Month-to-month,Fiber optic,Mailed check,74.08,3151.76,0,No
+C0334,Female,0,9,Month-to-month,Fiber optic,Bank transfer,79.76,665.56,0,Yes
+C0154,Male,0,17,Month-to-month,DSL,Credit card,43.98,736.16,1,No
+C0397,Male,0,10,Month-to-month,Unknown,Electronic check,88.29,881.74,2,Yes
+C0788,Female,0,10,Month-to-month,Unknown,Electronic check,36.35,371.43,3,No
+C0502,Female,0,72,Two year,Fiber optic,Mailed check,93.65,7284.67,0,No
+C1148,Female,0,1,Two year,Fiber optic,Electronic check,76.69,75.07,0,No
+C0722,Female,0,52,One year,Fiber optic,Electronic check,85.52,4535.59,3,No
+C0374,Male,1,24,Month-to-month,DSL,Mailed check,54.35,988.93,2,Yes
+C0591,Female,0,2,Month-to-month,No,Credit card,23.23,46.09,1,No
+C0313,Male,1,13,One year,DSL,Credit card,59.73,769.28,1,Yes
+C0599,Female,0,47,Month-to-month,DSL,Bank transfer,44.79,2128.51,2,Yes
+C0043,Female,0,2,One year,Fiber optic,Mailed check,72.38,140.45,0,No
+C0646,Male,0,23,Month-to-month,DSL,Electronic check,49.32,1189.14,2,Yes
+C0029,Female,0,15,Two year,Fiber optic,Bank transfer,79.15,1179.58,0,No
+C0523,Male,0,40,Month-to-month,Fiber optic,Electronic check,84.73,3329.58,1,Yes
+C0964,Male,1,11,Month-to-month,No,Bank transfer,15.0,167.79,1,Yes
+C0763,Female,0,22,Month-to-month,DSL,Bank transfer,41.76,939.06,2,No
+C1037,Female,0,35,Month-to-month,Fiber optic,Mailed check,90.49,3133.48,1,No
+C0141,Female,0,9,Month-to-month,Fiber optic,Bank transfer,96.55,870.25,0,No
+C0827,Female,0,30,Month-to-month,Fiber optic,Credit card,64.11,1820.9,3,Yes
+C0705,Male,0,35,Month-to-month,DSL,Electronic check,50.025000000000006,1862.41,1,Yes
+C1021,Male,0,64,One year,No,Electronic check,15.0,948.84,0,Yes
+C1158,Female,1,34,Month-to-month,Fiber optic,Bank transfer,60.58,1946.11,0,Yes
+C1015,Female,0,26,One year,No,Electronic check,15.18,393.53,1,No
+C0922,Female,0,18,Month-to-month,DSL,Credit card,45.97,790.19,2,Yes
+C0971,Male,0,32,Month-to-month,DSL,Credit card,47.05,1512.43,1,No
+C0137,Female,0,46,Month-to-month,Fiber optic,Bank transfer,85.39,3989.82,3,No
+C0949,Female,0,2,Month-to-month,Fiber optic,Electronic check,82.01,164.38,2,Yes
+C0877,Female,0,5,Month-to-month,DSL,Electronic check,50.99,252.7,1,No
+C0783,Male,0,4,Month-to-month,DSL,Electronic check,52.38,209.49,3,No
+C0446,Female,0,5,Month-to-month,DSL,Credit card,55.19,259.92,1,No
+C0670,Male,0,40,One year,Fiber optic,Electronic check,80.74,2975.59,1,No
+C0744,Male,0,17,One year,DSL,Mailed check,48.62,826.61,2,No
+C0273,Male,1,72,Month-to-month,Fiber optic,Electronic check,96.42,7199.11,0,No
+C1153,Male,1,11,One year,No,Electronic check,15.4,171.96,1,Yes
+C0520,Female,1,17,One year,No,Bank transfer,30.15,489.03,3,Yes
+C0815,Female,0,5,Two year,DSL,Credit card,40.99,208.29,1,No
+C0819,Female,1,5,Two year,DSL,Bank transfer,49.7,243.27,3,No
+C0378,Female,0,48,Month-to-month,Fiber optic,Electronic check,71.32,3417.31,1,No
+C0735,Male,1,11,Month-to-month,DSL,Bank transfer,49.57,543.68,1,No
+C0499,Female,1,40,Month-to-month,Unknown,Credit card,55.29,2237.18,1,No
+C0615,Female,0,38,One year,No,Bank transfer,15.0,569.82,0,No
+C1154,Female,0,16,Month-to-month,Fiber optic,Bank transfer,86.42,1471.54,3,Yes
+C1113,Male,1,18,Two year,Fiber optic,Electronic check,78.47,1350.07,2,Yes
+C1074,Female,0,12,One year,Unknown,Credit card,70.42,551.47,1,No
+C0892,Female,0,24,One year,DSL,Credit card,52.39,1822.03,1,No
+C0677,Female,0,31,Two year,Fiber optic,Bank transfer,75.45,2192.22,3,No
+C1166,Male,0,13,Month-to-month,DSL,Electronic check,38.67,503.01,1,Yes
+C0098,Female,0,14,Month-to-month,Fiber optic,Mailed check,84.78,1107.09,2,Yes
+C0663,Male,0,35,One year,DSL,Credit card,56.71,2145.74,0,No
+C1090,Male,0,55,Month-to-month,No,Bank transfer,21.09,1123.78,1,No
+C0623,Male,1,48,Month-to-month,No,Credit card,27.42,1380.22,0,Yes
+C0545,Female,0,36,Month-to-month,No,Bank transfer,18.69,686.88,0,Yes
+C0380,Male,0,28,Month-to-month,DSL,Mailed check,61.03,1706.85,1,No
+C1013,Male,0,29,Two year,No,Mailed check,20.07,600.82,2,Yes
+C0204,Female,0,29,Month-to-month,Fiber optic,Credit card,79.76,2064.46,1,No
+C0344,Female,0,20,Two year,DSL,Mailed check,51.63,964.12,0,No
+C1049,Female,1,16,Month-to-month,Fiber optic,Bank transfer,75.55,1201.59,3,Yes
+C0655,Female,0,15,One year,DSL,Mailed check,35.43,522.55,1,Yes
+C1140,Female,0,28,Month-to-month,DSL,Mailed check,55.48,1577.49,1,Yes
+C0519,Male,0,6,Two year,No,Bank transfer,15.0,94.1,2,No
+C0780,Female,0,16,Month-to-month,DSL,Bank transfer,54.49,900.6,2,Yes
+C0235,Male,0,10,Month-to-month,DSL,Bank transfer,47.18,457.22,0,Yes
+C0489,Female,0,39,Month-to-month,Fiber optic,Mailed check,79.76,3240.99,2,No
+C0238,Male,1,33,Month-to-month,No,Bank transfer,15.0,494.51,1,No
+C0550,Female,1,13,Two year,DSL,Credit card,51.59,674.99,2,No
+C0401,Female,0,26,Two year,DSL,Credit card,59.72,1520.76,0,No
+C0571,Female,0,1,Month-to-month,Fiber optic,Mailed check,67.57,68.39,1,Yes
+C0233,Male,0,10,Two year,No,Bank transfer,19.87,147.09,3,No
+C0795,Male,0,27,Two year,DSL,Mailed check,50.68,1337.36,2,No
+C0683,Female,0,72,Month-to-month,DSL,Credit card,51.02,3646.72,0,No
+C0443,Male,0,10,Month-to-month,Fiber optic,Credit card,69.64,699.63,2,Yes
+C1168,Male,0,24,Month-to-month,DSL,Electronic check,57.54,2769.32,1,Yes
+C0719,Male,0,22,Month-to-month,Fiber optic,Credit card,88.07,2028.8,0,Yes
+C0797,Female,0,23,Month-to-month,DSL,Mailed check,49.06,1139.31,1,Yes
+C0099,Female,0,13,Two year,No,Mailed check,17.32,218.43,1,No
+C0515,Female,1,45,Month-to-month,Fiber optic,Credit card,90.24,3898.87,0,No
+C0512,Female,0,24,Month-to-month,Fiber optic,Electronic check,66.38,2521.2,2,No
+C1058,Female,1,24,One year,Fiber optic,Mailed check,82.94,655.88,1,No
+C0218,Male,0,48,Month-to-month,No,Electronic check,15.0,690.47,3,No
+C0361,Female,0,49,Month-to-month,Fiber optic,Bank transfer,82.99,4215.33,0,No
+C0559,Female,0,17,Month-to-month,DSL,Mailed check,50.025000000000006,1002.54,1,No
+C0500,Male,0,35,One year,Fiber optic,Electronic check,81.6,2850.26,0,No
+C1194,Female,0,9,Month-to-month,Fiber optic,Electronic check,92.59,836.6,1,No
+C0226,Male,0,25,Month-to-month,Fiber optic,Credit card,76.18,1854.62,2,Yes
+C0019,Female,0,23,Month-to-month,DSL,Bank transfer,45.49,1030.59,0,No
+C0169,Male,0,12,One year,Fiber optic,Electronic check,78.13,934.2,2,No
+C1048,Female,0,7,Two year,DSL,Electronic check,61.92,443.67,0,No
+C0293,Female,0,52,Month-to-month,DSL,Electronic check,50.06,2685.05,2,No
+C0901,Male,0,26,One year,Fiber optic,Electronic check,73.98,1948.99,2,Yes
+C0398,Male,0,32,Month-to-month,DSL,Credit card,50.025000000000006,1702.57,0,No
+C1071,Female,0,37,Two year,No,Credit card,31.34,1159.83,1,No
+C1077,Female,0,27,One year,No,Electronic check,23.48,643.9,3,Yes
+C0541,Female,0,28,One year,No,Electronic check,23.62,644.01,2,No
+C0329,Male,0,9,Month-to-month,DSL,Electronic check,62.48,564.85,1,Yes
+C0796,Male,0,33,Month-to-month,Fiber optic,Mailed check,90.22,2824.8,2,No
+C0849,Female,0,49,Two year,Fiber optic,Mailed check,89.69,4329.62,2,No
+C0303,Male,0,24,Two year,Fiber optic,Electronic check,101.25,2335.15,1,Yes
+C1176,Male,0,30,Month-to-month,Fiber optic,Credit card,79.8,2443.49,0,Yes
+C0932,Female,0,6,Month-to-month,Fiber optic,Bank transfer,90.47,521.3,2,No
+C0094,Male,0,28,Month-to-month,No,Credit card,18.12,510.51,3,Yes
+C0214,Male,0,20,Month-to-month,No,Electronic check,15.83,318.11,2,No
+C0771,Female,0,42,Month-to-month,No,Electronic check,15.73,659.88,1,No
+C0338,Male,0,14,Month-to-month,DSL,Electronic check,57.32,782.8,1,Yes
+C0426,Male,0,27,Month-to-month,No,Electronic check,16.25,441.19,4,No
+C0804,Female,0,27,Month-to-month,DSL,Bank transfer,55.49,1606.57,0,Yes
+C0213,Female,1,26,Two year,Fiber optic,Electronic check,88.66,2252.6,1,No
+C0619,Male,0,39,Two year,Fiber optic,Credit card,79.76,2958.76,2,Yes
+C0116,Female,0,31,Month-to-month,Fiber optic,Bank transfer,86.88,2913.68,0,No
+C0159,Female,0,31,Month-to-month,DSL,Credit card,38.02,1193.45,1,No
+C0113,Female,0,6,Month-to-month,Fiber optic,Bank transfer,79.76,474.41,5,Yes
+C0037,Female,0,31,Two year,DSL,Bank transfer,48.26,1496.0,0,No
+C0106,Female,0,40,Two year,No,Mailed check,15.0,616.13,2,No
+C0669,Female,0,52,One year,No,Electronic check,19.87,1883.1,1,No
+C0363,Male,0,14,Month-to-month,DSL,Electronic check,51.72,737.76,1,Yes
+C0851,Female,0,2,Month-to-month,Fiber optic,Electronic check,86.85,183.15,0,Yes
+C0717,Female,0,29,Month-to-month,Fiber optic,Mailed check,80.88,2423.83,2,Yes
+C0757,Female,0,46,Two year,Fiber optic,Electronic check,91.17,4031.81,1,No
+C0734,Female,1,8,One year,Fiber optic,Bank transfer,89.54,726.46,3,Yes
+C0759,Male,0,9,Two year,No,Electronic check,15.0,129.43,1,No
+C0366,Female,0,52,Two year,No,Credit card,20.93,1047.19,0,No
+C1007,Female,1,15,One year,DSL,Mailed check,59.33,886.58,1,No
+C0442,Male,0,14,Month-to-month,DSL,Electronic check,48.32,659.91,3,No
+C1031,Male,0,18,Month-to-month,Fiber optic,Mailed check,68.01,1293.39,3,No
+C0566,Male,1,14,Month-to-month,Fiber optic,Credit card,81.24,1160.27,2,Yes
+C0352,Male,0,39,Month-to-month,DSL,Electronic check,51.02,2026.41,0,No
+C0491,Female,0,25,One year,Fiber optic,Mailed check,79.76,2099.87,0,No
+C0250,Male,1,31,One year,Unknown,Credit card,56.15,1643.94,3,No
+C0477,Female,0,17,Month-to-month,Fiber optic,Credit card,79.75,1386.63,0,Yes
+C0635,Male,0,15,Month-to-month,Fiber optic,Electronic check,75.48,1124.35,1,No
+C1098,Female,0,29,One year,Fiber optic,Credit card,79.76,2735.84,0,No
+C0407,Male,1,46,Month-to-month,DSL,Bank transfer,48.29,2221.12,1,No
+C1137,Female,1,35,Month-to-month,Fiber optic,Bank transfer,81.63,2832.01,2,No
+C0165,Male,1,25,Month-to-month,Fiber optic,Bank transfer,76.89,1948.32,0,Yes
+C0782,Female,0,33,Month-to-month,DSL,Bank transfer,45.9,1437.47,2,No
+C0455,Female,0,19,Two year,DSL,Electronic check,39.7,743.65,1,No
+C1108,Female,0,46,Month-to-month,No,Credit card,29.26,1349.4,2,No
+C1120,Male,0,27,Month-to-month,Fiber optic,Electronic check,83.89,2317.33,3,No
+C1162,Male,0,17,Two year,No,Electronic check,23.7,400.59,1,No
+C0084,Female,0,16,Two year,DSL,Bank transfer,58.47,902.72,2,No
+C0231,Male,0,33,One year,Fiber optic,Bank transfer,79.84,2666.16,0,No
+C0296,Female,1,72,Month-to-month,DSL,Electronic check,51.17,3585.89,0,No
+C0653,Male,0,47,One year,Fiber optic,Mailed check,70.2,3299.47,0,No
+C0071,Female,0,48,Month-to-month,DSL,Electronic check,51.07,2436.05,2,Yes
+C0644,Male,0,27,Two year,DSL,Credit card,63.06,1599.51,0,No
+C0821,Male,0,25,One year,DSL,Mailed check,50.025000000000006,964.22,0,No
+C0611,Female,0,72,Month-to-month,DSL,Mailed check,58.9,3983.71,4,Yes
+C0986,Female,1,43,Month-to-month,No,Mailed check,18.42,749.46,4,Yes
+C0065,Male,0,34,One year,Fiber optic,Electronic check,82.49,2847.49,0,No
+C1144,Female,1,21,Month-to-month,Fiber optic,Electronic check,91.45,2040.73,1,Yes
+C1184,Male,0,72,One year,No,Mailed check,24.4,1664.51,0,No
+C0853,Female,1,24,Month-to-month,Fiber optic,Mailed check,77.92,1126.68,0,Yes
+C0962,Male,0,7,Month-to-month,No,Credit card,31.76,220.22,2,No
+C1132,Female,0,9,One year,DSL,Bank transfer,53.36,486.26,3,Yes
+C0128,Female,0,33,Month-to-month,Fiber optic,Credit card,71.71,2371.51,3,Yes
+C0339,Male,1,34,Month-to-month,Fiber optic,Electronic check,81.72,2682.62,0,No
+C0002,Female,0,24,Month-to-month,DSL,Credit card,46.24,1133.73,2,No
+C0978,Female,1,38,Month-to-month,Fiber optic,Credit card,84.14,3319.82,0,No
+C0540,Male,0,59,One year,No,Electronic check,20.84,1181.68,1,No
+C0602,Female,0,11,One year,DSL,Electronic check,62.53,687.54,2,No
+C0309,Male,0,2,One year,No,Electronic check,23.41,49.86,4,Yes
+C0586,Female,0,27,Month-to-month,No,Electronic check,17.54,469.77,1,Yes
+C1101,Male,1,17,Month-to-month,No,Bank transfer,15.0,258.25,3,Yes
+C0411,Male,0,38,Month-to-month,No,Mailed check,29.98,1135.35,4,Yes
+C0172,Male,0,24,Two year,Fiber optic,Mailed check,71.67,818.59,1,No
+C0418,Male,1,19,Month-to-month,No,Electronic check,19.87,533.52,0,No
+C0739,Female,1,26,One year,Unknown,Mailed check,63.79,1718.37,0,No
+C0838,Male,0,4,One year,Fiber optic,Bank transfer,99.8,413.94,1,Yes
+C1075,Male,0,39,Two year,DSL,Mailed check,61.25,2382.49,0,No
+C1022,Male,0,45,One year,DSL,Mailed check,45.43,2001.56,1,No
+C0604,Male,0,21,Month-to-month,DSL,Electronic check,51.43,1083.58,2,Yes
+C0807,Female,1,22,One year,Fiber optic,Electronic check,87.88,1907.95,0,No
+C0883,Male,0,26,Month-to-month,Fiber optic,Electronic check,64.26,1646.98,1,Yes
+C0461,Female,1,17,Month-to-month,Fiber optic,Mailed check,79.76,1480.79,1,Yes
+C0044,Male,0,8,Month-to-month,Fiber optic,Electronic check,72.24,572.22,1,No
+C0638,Male,0,59,One year,DSL,Credit card,50.025000000000006,3015.78,3,No
+C0424,Female,0,67,Month-to-month,Unknown,Electronic check,73.34,4878.3,1,No
+C0728,Male,0,6,One year,DSL,Bank transfer,48.57,293.42,1,No
+C0968,Male,0,37,Month-to-month,Unknown,Mailed check,67.5,2531.69,1,No
+C0973,Male,0,24,Month-to-month,Fiber optic,Mailed check,81.5,3104.53,0,No
+C0923,Male,1,13,Month-to-month,DSL,Mailed check,45.99,567.47,0,Yes
+C0316,Female,1,10,Two year,Fiber optic,Credit card,65.09,650.9,3,No
+C0377,Female,0,22,Two year,Fiber optic,Credit card,83.41,1723.31,0,No
+C0525,Male,0,29,Two year,DSL,Bank transfer,39.69,1221.45,1,No
+C0333,Male,0,24,One year,Fiber optic,Electronic check,85.97,2076.18,1,Yes
+C0439,Male,0,72,Month-to-month,No,Electronic check,26.88,1827.23,1,No
+C1059,Male,0,29,Two year,Fiber optic,Electronic check,79.76,2394.17,2,No
+C0151,Female,0,18,Month-to-month,Fiber optic,Mailed check,80.09,1465.9,1,Yes
+C0038,Female,0,24,One year,DSL,Credit card,61.92,1464.56,1,Yes
+C0557,Female,0,29,Month-to-month,No,Mailed check,21.79,615.58,0,Yes
+C0926,Female,0,10,Month-to-month,Fiber optic,Credit card,77.37,783.93,0,Yes
+C0751,Female,0,17,Month-to-month,Unknown,Credit card,70.42,255.09,2,Yes
+C1161,Female,0,11,Month-to-month,DSL,Credit card,59.87,656.55,1,Yes
+C0982,Female,0,15,One year,Fiber optic,Credit card,80.65,1218.14,0,Yes
+C0955,Female,0,28,One year,Fiber optic,Electronic check,83.99,2302.62,1,No
+C1106,Male,1,18,One year,DSL,Credit card,61.05,1152.31,1,Yes
+C0725,Female,0,3,Month-to-month,DSL,Mailed check,55.24,172.09,2,Yes
+C0822,Female,0,8,Month-to-month,Fiber optic,Bank transfer,77.04,631.89,0,No
+C0410,Male,0,72,One year,DSL,Electronic check,64.22,4703.56,1,No
+C0144,Male,0,7,Month-to-month,Fiber optic,Electronic check,79.76,611.81,3,Yes
+C0718,Male,0,14,Month-to-month,DSL,Electronic check,36.69,528.83,1,No
+C0527,Female,0,21,Month-to-month,Fiber optic,Mailed check,71.2,1486.4,2,Yes
+C0584,Male,0,54,One year,Fiber optic,Electronic check,84.91,4741.16,0,No
+C0976,Male,0,36,Two year,Fiber optic,Bank transfer,59.15,2136.9,1,Yes
+C0567,Male,0,24,Month-to-month,Fiber optic,Credit card,84.59,2004.42,2,Yes
+C0943,Female,0,31,Month-to-month,Fiber optic,Electronic check,74.01,2263.36,0,Yes
+C0209,Male,0,21,Month-to-month,Fiber optic,Bank transfer,79.76,1621.63,1,No
+C0857,Male,0,24,Month-to-month,Fiber optic,Mailed check,76.13,1737.49,1,No
+C0441,Female,0,11,Month-to-month,Fiber optic,Mailed check,73.47,794.85,0,Yes
+C0132,Female,0,1,Month-to-month,Fiber optic,Electronic check,87.97,88.46,2,Yes
+C0381,Male,1,20,One year,Fiber optic,Electronic check,93.05,1856.88,3,Yes
+C0175,Female,0,33,Month-to-month,DSL,Electronic check,40.17,1299.16,3,No
+C0534,Male,0,24,Two year,Fiber optic,Bank transfer,94.21,2311.84,1,No
+C0704,Male,0,5,Month-to-month,Fiber optic,Electronic check,70.73,353.34,4,Yes
+C0271,Male,0,33,Month-to-month,DSL,Bank transfer,32.46,1047.59,1,Yes
+C0408,Male,0,59,Month-to-month,DSL,Electronic check,45.72,2782.37,3,Yes
+C1036,Female,0,42,Month-to-month,Fiber optic,Electronic check,85.62,3677.85,1,No
+C0124,Male,1,72,Month-to-month,No,Mailed check,25.72,1888.25,0,No
+C0139,Male,0,37,Month-to-month,Fiber optic,Electronic check,89.22,3340.3,0,Yes
+C0880,Female,0,32,Month-to-month,Fiber optic,Credit card,74.27,2242.36,1,No
+C0052,Male,1,47,Two year,No,Mailed check,24.54,1150.88,1,No
+C0733,Female,0,39,Month-to-month,Fiber optic,Electronic check,79.76,3197.76,1,Yes
+C0625,Female,0,12,One year,Fiber optic,Mailed check,75.14,889.36,2,Yes
+C0778,Male,1,18,Month-to-month,DSL,Credit card,40.65,752.62,3,Yes
+C0276,Male,1,1,One year,Fiber optic,Mailed check,72.53,73.55,3,No
+C0785,Male,1,40,Two year,Fiber optic,Credit card,81.64,3389.65,1,No
+C0183,Male,0,25,Month-to-month,Fiber optic,Electronic check,79.76,2024.7,2,Yes
+C0618,Male,0,48,Month-to-month,Fiber optic,Electronic check,85.02,4058.96,2,No
+C0691,Female,0,11,One year,No,Electronic check,15.0,159.83,4,No
+C0241,Male,0,9,Month-to-month,Fiber optic,Bank transfer,75.7,683.19,1,Yes
+C0459,Female,0,3,Month-to-month,Fiber optic,Bank transfer,79.76,248.56,0,Yes
+C0682,Male,0,48,Month-to-month,Fiber optic,Bank transfer,76.23,3659.04,2,No
+C0466,Female,1,52,Month-to-month,DSL,Bank transfer,41.85,2147.68,4,No
+C0146,Female,0,24,Month-to-month,Fiber optic,Bank transfer,70.5,1781.51,1,Yes
+C0207,Female,0,72,One year,DSL,Mailed check,39.42,2815.74,1,No
+C1064,Female,0,5,One year,Fiber optic,Credit card,74.41,383.45,0,No
+C0325,Female,0,64,One year,Fiber optic,Credit card,79.76,4486.35,2,No
+C0658,Female,0,45,One year,DSL,Mailed check,52.29,2236.79,0,No
+C1122,Male,0,10,Month-to-month,DSL,Credit card,65.07,646.93,2,No
+C0715,Female,0,49,One year,DSL,Credit card,51.44,2592.84,0,No
+C0080,Female,0,50,One year,DSL,Electronic check,49.52,2392.09,2,No
+C1118,Female,0,62,Month-to-month,DSL,Credit card,47.89,2828.8,3,No
+C0688,Female,0,27,Month-to-month,Fiber optic,Credit card,76.24,2153.67,3,Yes
+C0167,Male,0,42,Month-to-month,Fiber optic,Electronic check,81.38,3621.49,1,Yes
+C0230,Male,0,72,Month-to-month,Fiber optic,Mailed check,98.16,6893.33,2,No
+C1180,Male,0,20,Month-to-month,Fiber optic,Bank transfer,75.9,1625.37,0,Yes
+C1087,Female,0,23,Month-to-month,Fiber optic,Bank transfer,84.94,1946.02,1,Yes
+C0741,Female,0,45,Two year,Fiber optic,Electronic check,80.64,3708.48,2,No
+C0101,Female,0,33,Month-to-month,Fiber optic,Mailed check,76.36,2575.57,1,Yes
+C0291,Female,0,7,Month-to-month,No,Bank transfer,15.0,99.75,1,Yes
+C0445,Female,0,12,Month-to-month,Fiber optic,Electronic check,85.16,1048.57,1,Yes
+C0879,Female,0,55,Month-to-month,Fiber optic,Credit card,72.26,4023.54,2,No
+C0740,Female,0,22,Month-to-month,Fiber optic,Electronic check,89.61,2082.02,2,Yes
+C0392,Male,0,17,Month-to-month,DSL,Electronic check,42.08,686.39,1,Yes
+C0087,Male,0,8,Month-to-month,Fiber optic,Credit card,100.41,804.71,1,Yes
+C0667,Female,0,25,One year,Fiber optic,Electronic check,62.53,1531.26,2,No
+C1104,Male,0,52,Month-to-month,DSL,Electronic check,52.8,2802.96,0,No
+C0476,Female,0,26,Month-to-month,Fiber optic,Bank transfer,88.62,2193.53,1,Yes
+C0045,Male,0,37,Month-to-month,DSL,Mailed check,62.05,2407.0,1,No
+C0789,Female,1,31,Month-to-month,DSL,Credit card,50.025000000000006,1180.18,0,No
+C1003,Female,0,30,Two year,No,Mailed check,18.71,550.78,2,No
+C0025,Female,1,16,Month-to-month,No,Mailed check,15.0,247.65,0,No
+C0833,Male,0,72,One year,No,Electronic check,19.94,1347.43,0,No
+C0592,Female,0,34,Month-to-month,DSL,Credit card,48.29,1611.73,0,No
+C0974,Male,0,43,Two year,DSL,Electronic check,50.025000000000006,2393.65,1,No
+C1057,Male,0,5,One year,DSL,Bank transfer,61.26,286.7,2,No
+C0223,Female,0,10,One year,DSL,Bank transfer,48.7,493.98,0,No
+C1053,Female,0,53,Month-to-month,Fiber optic,Electronic check,67.79,3450.13,1,Yes
+C0723,Female,0,46,One year,Fiber optic,Electronic check,73.81,3474.77,2,Yes
+C0056,Male,0,14,Month-to-month,Fiber optic,Credit card,78.19,1152.19,1,Yes
+C0254,Male,1,14,Month-to-month,No,Bank transfer,21.6,305.75,1,Yes
+C1073,Female,0,5,One year,No,Credit card,28.73,146.47,1,No
+C0643,Female,0,18,Month-to-month,Fiber optic,Mailed check,97.9,1707.87,3,Yes
+C0546,Male,0,72,Month-to-month,No,Electronic check,17.63,1239.54,0,No
+C0478,Male,0,20,Two year,Unknown,Credit card,40.93,851.42,1,No
+C0950,Male,0,72,Month-to-month,DSL,Credit card,44.09,3227.71,1,No
+C0844,Male,0,6,One year,DSL,Electronic check,51.55,309.69,3,No
+C0064,Female,0,27,Month-to-month,Fiber optic,Electronic check,79.89,2212.85,1,Yes
+C0414,Male,1,47,Two year,No,Bank transfer,30.7,1440.04,1,No
+C0385,Male,0,31,One year,Fiber optic,Mailed check,97.12,2982.06,1,No
+C0975,Male,0,58,One year,Fiber optic,Electronic check,84.84,5014.78,2,No
+C0885,Female,0,18,One year,No,Electronic check,15.0,268.24,0,No
+C0452,Female,0,30,Two year,DSL,Bank transfer,58.47,1762.74,1,No
+C0657,Female,0,10,Month-to-month,No,Bank transfer,15.0,154.62,3,No
+C0370,Female,0,27,Month-to-month,Fiber optic,Electronic check,91.04,2404.92,0,No
+C0690,Female,0,20,One year,Fiber optic,Credit card,79.76,1984.21,5,Yes
+C0220,Female,0,36,One year,DSL,Credit card,50.025000000000006,1065.79,0,No
+C1149,Female,0,16,Two year,Unknown,Credit card,37.96,589.61,3,No
+C0022,Male,0,20,One year,Fiber optic,Bank transfer,88.25,1683.07,2,No
+C0761,Male,0,34,Month-to-month,Unknown,Credit card,88.53,3156.03,4,Yes
+C0870,Male,0,30,Month-to-month,Fiber optic,Electronic check,76.05,2316.59,1,Yes
+C0421,Female,1,16,Two year,No,Electronic check,19.12,306.61,1,No
+C0200,Female,0,36,Two year,Fiber optic,Electronic check,79.76,2914.72,0,No
+C0451,Female,0,33,Month-to-month,No,Mailed check,24.55,782.99,1,Yes
+C1020,Male,0,22,Month-to-month,Unknown,Bank transfer,75.73,1653.83,0,No
+C0912,Male,0,58,One year,Fiber optic,Credit card,86.61,4821.28,0,No
+C0697,Female,0,13,Month-to-month,Fiber optic,Electronic check,81.48,1093.3,0,No
+C0812,Female,1,10,One year,No,Credit card,21.68,225.95,3,No
+C1196,Female,0,36,Month-to-month,DSL,Electronic check,64.36,2194.76,3,Yes
+C0911,Female,0,14,One year,DSL,Mailed check,53.21,744.7,3,No
+C1050,Male,0,29,Month-to-month,DSL,Electronic check,54.43,1509.56,2,Yes
+C0506,Male,0,48,Two year,Unknown,Mailed check,74.95,3611.76,1,No
+C0406,Female,0,24,Month-to-month,DSL,Bank transfer,44.9,1361.12,2,No
+C0318,Female,0,1,Month-to-month,No,Mailed check,15.0,15.52,1,No
+C0184,Female,0,17,Two year,DSL,Electronic check,45.5,798.09,1,No
+C1138,Male,0,42,Two year,No,Bank transfer,25.6,1023.86,1,No
+C0610,Female,0,66,Two year,Fiber optic,Electronic check,76.48,4887.06,3,No
+C0627,Male,0,6,Two year,No,Electronic check,23.84,145.76,1,No
+C0486,Male,0,3,Month-to-month,DSL,Mailed check,40.1,121.73,1,No
+C0279,Male,0,10,Month-to-month,DSL,Mailed check,43.44,449.16,3,No
+C0631,Female,0,33,Month-to-month,DSL,Mailed check,55.58,1802.49,0,Yes
+C0021,Female,0,17,Month-to-month,DSL,Electronic check,45.49,791.44,1,Yes
+C0171,Male,0,58,Two year,No,Credit card,15.0,893.28,2,No
+C0902,Male,1,6,Month-to-month,No,Credit card,15.0,91.99,6,Yes
+C1040,Female,0,8,Month-to-month,DSL,Mailed check,40.51,325.33,2,Yes
+C0177,Female,0,27,Month-to-month,No,Electronic check,18.68,518.05,2,No
+C0328,Male,1,5,Month-to-month,No,Electronic check,29.19,151.59,1,Yes
+C0707,Male,0,12,One year,Fiber optic,Mailed check,74.63,938.4,1,No
+C0471,Female,1,8,Month-to-month,DSL,Bank transfer,45.4,359.33,1,Yes
+C1131,Male,1,22,Month-to-month,Fiber optic,Electronic check,85.98,1877.7,3,No
+C0267,Male,1,72,Two year,DSL,Bank transfer,48.88,3531.08,0,No
+C0616,Female,0,5,Month-to-month,Fiber optic,Credit card,84.15,432.53,1,Yes
+C0131,Female,0,5,Month-to-month,DSL,Electronic check,50.13,253.75,0,Yes
+C0866,Female,0,20,Two year,Fiber optic,Electronic check,71.72,1507.53,0,No
+C1175,Male,0,46,Two year,Fiber optic,Electronic check,96.38,4314.08,2,Yes
+C1134,Female,0,20,Month-to-month,DSL,Electronic check,49.2,967.89,1,No
+C0490,Female,0,16,One year,Fiber optic,Electronic check,94.69,1526.46,1,Yes
+C0607,Male,0,59,Month-to-month,Unknown,Credit card,79.42,4650.82,0,Yes
+C0417,Female,0,10,Month-to-month,DSL,Mailed check,55.7,554.84,1,Yes
+C0153,Female,0,34,Two year,Fiber optic,Electronic check,78.48,2575.98,2,No
+C0890,Male,0,44,Month-to-month,Unknown,Credit card,93.39,3883.58,2,Yes
+C0850,Female,0,6,Two year,DSL,Electronic check,52.43,323.73,4,No
+C0280,Male,0,28,One year,DSL,Credit card,62.74,1805.37,0,No
+C1035,Male,1,21,Month-to-month,DSL,Electronic check,57.65,1242.28,0,Yes
+C0270,Female,0,57,Month-to-month,No,Credit card,18.42,1090.3,0,Yes
+C0097,Male,0,7,One year,No,Mailed check,18.24,125.17,2,No
+C0211,Male,0,39,Month-to-month,Fiber optic,Bank transfer,75.79,3084.85,0,No
+C0570,Female,0,72,One year,Fiber optic,Bank transfer,82.2,6207.86,5,Yes
+C1181,Female,0,19,One year,DSL,Bank transfer,61.57,1196.12,1,No
+C0872,Male,0,23,Month-to-month,No,Bank transfer,28.83,601.76,2,No
+C0533,Male,0,27,Month-to-month,DSL,Bank transfer,42.77,1146.93,4,Yes
+C1178,Male,0,58,One year,No,Electronic check,27.15,1528.03,0,No
+C1100,Male,0,29,Two year,No,Bank transfer,17.2,519.35,1,No
+C0713,Female,0,16,One year,DSL,Electronic check,46.86,768.57,2,No
+C0078,Male,0,5,Month-to-month,DSL,Credit card,38.44,190.5,0,No
+C0264,Female,0,15,Month-to-month,No,Bank transfer,22.54,342.39,1,No
+C0150,Male,1,28,Month-to-month,DSL,Bank transfer,48.19,1326.48,0,Yes
+C0470,Female,0,38,Month-to-month,Fiber optic,Bank transfer,79.76,2934.38,0,Yes
+C0565,Female,0,6,Month-to-month,Fiber optic,Mailed check,78.38,488.75,0,No
+C0462,Male,0,24,Month-to-month,Fiber optic,Bank transfer,78.58,3580.15,1,Yes
+C0897,Female,1,33,Month-to-month,DSL,Credit card,54.8,1821.03,1,No
+C0696,Male,0,30,Month-to-month,No,Electronic check,22.65,681.57,2,Yes
+C0929,Male,0,21,Month-to-month,Fiber optic,Electronic check,79.76,1675.8,0,No
+C0587,Female,0,31,Month-to-month,Fiber optic,Electronic check,72.06,2146.51,4,Yes
+C0244,Female,0,29,Two year,No,Mailed check,15.0,443.31,2,No
+C1112,Male,0,59,Month-to-month,Fiber optic,Mailed check,86.53,5242.98,0,Yes
+C0752,Male,0,8,Two year,Fiber optic,Bank transfer,90.69,717.68,1,No
+C0649,Female,1,27,One year,Fiber optic,Electronic check,67.57,1953.14,3,No
+C0596,Female,0,23,One year,Fiber optic,Bank transfer,79.76,2026.51,1,No
+C0314,Male,1,16,Month-to-month,DSL,Mailed check,46.39,782.4,1,No
+C0934,Female,0,13,Two year,No,Mailed check,26.53,345.81,3,No
+C0156,Female,0,24,One year,Fiber optic,Electronic check,87.96,2099.24,3,No
+C1151,Male,0,24,Month-to-month,Fiber optic,Credit card,64.07,1595.47,2,Yes
+C1000,Female,0,49,One year,DSL,Credit card,54.74,2621.99,1,No
+C1047,Male,0,15,One year,DSL,Electronic check,50.025000000000006,843.64,2,No
+C0026,Female,0,23,Month-to-month,Fiber optic,Mailed check,70.74,1619.26,3,Yes
+C0197,Male,0,37,Month-to-month,Unknown,Electronic check,45.07,1638.73,2,Yes
+C1089,Female,0,13,Two year,Fiber optic,Credit card,82.4,1070.53,1,No
+C0016,Female,0,52,Month-to-month,DSL,Electronic check,46.72,2443.26,1,No
+C0884,Male,0,20,Month-to-month,DSL,Mailed check,41.91,851.31,0,No
+C0622,Male,0,14,Month-to-month,Unknown,Bank transfer,50.98,691.08,0,Yes
+C1051,Female,0,29,One year,DSL,Bank transfer,53.46,1576.8,1,No
+C1068,Female,0,13,One year,Fiber optic,Bank transfer,89.72,1252.49,1,Yes
+C0498,Male,0,71,Month-to-month,DSL,Credit card,41.44,2881.0,3,Yes
+C0793,Female,0,9,Month-to-month,Fiber optic,Mailed check,81.55,734.47,1,Yes
+C0965,Female,0,19,Month-to-month,DSL,Bank transfer,40.43,779.64,2,No
+C0516,Male,0,9,Month-to-month,Fiber optic,Credit card,77.18,656.97,1,Yes
+C1096,Male,0,27,One year,Fiber optic,Mailed check,83.4,2313.56,3,No
+C0543,Male,0,25,One year,DSL,Mailed check,51.98,1283.35,3,Yes
+C0457,Male,1,25,One year,DSL,Electronic check,49.69,1213.63,4,No
+C0634,Male,0,21,Two year,No,Bank transfer,25.4,543.63,2,No
+C0432,Female,0,52,Month-to-month,DSL,Bank transfer,57.38,2816.01,1,No
+C0628,Male,0,28,Month-to-month,DSL,Credit card,30.53,857.43,1,Yes
+C0729,Male,0,5,One year,DSL,Bank transfer,58.19,278.86,0,Yes
+C0210,Female,1,72,Month-to-month,No,Bank transfer,36.31,2610.59,1,No
+C0317,Female,0,28,Month-to-month,Fiber optic,Bank transfer,80.79,2198.16,2,No
+C0514,Female,1,13,Two year,No,Mailed check,15.0,198.83,2,No
+C0830,Male,0,7,Two year,Fiber optic,Bank transfer,83.23,583.52,1,No
+C0320,Female,0,4,Month-to-month,Fiber optic,Bank transfer,66.52,262.55,2,Yes
+C1032,Male,1,6,Month-to-month,DSL,Credit card,68.32,434.4,2,Yes
+C1111,Female,0,28,One year,DSL,Bank transfer,56.14,1580.23,1,No
+C0754,Female,0,16,Month-to-month,DSL,Electronic check,52.11,846.39,1,No
+C1002,Female,0,22,Month-to-month,Fiber optic,Bank transfer,77.62,1722.15,1,Yes
+C0581,Male,0,48,Month-to-month,Fiber optic,Credit card,83.85,4103.73,3,Yes
+C0563,Male,0,24,Month-to-month,Fiber optic,Bank transfer,75.78,1932.27,1,Yes
+C0399,Male,1,32,Month-to-month,Unknown,Electronic check,83.66,2738.51,1,Yes
+C0253,Male,1,7,One year,Fiber optic,Bank transfer,85.97,569.43,3,No
+C0908,Male,0,57,Month-to-month,DSL,Credit card,54.32,3098.1,3,Yes
+C0469,Male,0,21,Two year,Fiber optic,Bank transfer,80.28,1705.47,2,Yes
+C0915,Female,1,24,Two year,Fiber optic,Bank transfer,89.3,5504.22,0,No
+C0358,Female,0,27,One year,Fiber optic,Bank transfer,72.19,1939.82,2,No
+C0509,Male,1,24,Month-to-month,No,Electronic check,15.0,234.79,0,No
+C0750,Male,0,17,Month-to-month,Fiber optic,Credit card,79.29,1369.3,2,No
+C0130,Female,0,22,Month-to-month,Fiber optic,Credit card,91.14,1970.56,2,Yes
+C0145,Female,0,24,One year,DSL,Bank transfer,59.53,4384.44,1,No
+C0961,Male,1,20,Month-to-month,Fiber optic,Electronic check,79.2,1600.57,2,Yes
+C0848,Male,0,5,Month-to-month,Fiber optic,Bank transfer,96.23,474.0,3,Yes
+C0716,Female,0,17,Month-to-month,Fiber optic,Credit card,85.95,1493.2,1,Yes
+C0906,Female,0,27,Two year,No,Mailed check,18.6,499.22,0,No
+C1097,Female,0,13,Month-to-month,Fiber optic,Electronic check,93.12,1239.43,1,No
+C0236,Female,0,53,Month-to-month,DSL,Credit card,37.22,1996.88,0,No
+C1062,Female,0,72,Month-to-month,Unknown,Mailed check,49.98,3711.16,0,No
