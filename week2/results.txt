@@ -1,0 +1,146 @@
+
+==========================================================================
+PART A: REGRESSION - Diabetes dataset
+==========================================================================
+Samples: 442, features: 10 -> ['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6']
+Target (disease progression after 1 year): mean=152.1, std=77.1, range=25-346
+Train: 353, Test: 89
+
+CV-selected Decision Tree depth: 2 (CV R2=0.352)
+CV-selected KNN k              : 18 (CV R2=0.403)
+
+Regression results (test set + 25-fold repeated CV):
+                      Model  Train R2  Test R2    MSE  RMSE   MAE  CV R2 mean  CV R2 std
+          Linear Regression     0.528    0.453 2900.2 53.85 42.79       0.480      0.072
+    Decision Tree (default)     1.000    0.061 4976.8 70.55 54.53      -0.141      0.182
+    Decision Tree (depth=2)     0.447    0.295 3735.5 61.12 49.37       0.330      0.085
+  Random Forest (100 trees)     0.924    0.443 2952.0 54.33 44.05       0.415      0.073
+                  KNN (k=5)     0.580    0.425 3047.4 55.20 42.78       0.375      0.069
+                 KNN (k=18)     0.507    0.423 3058.0 55.30 45.66       0.440      0.043
+Baseline (predict the mean)     0.000   -0.012 5361.5 73.22 64.01      -0.013      0.013
+
+Linear Regression standardised coefficients:
+ s1    -44.4
+sex   -11.5
+age     1.8
+s6      2.4
+s3      7.7
+s4     13.1
+bp     16.8
+s2     24.6
+bmi    25.6
+s5     35.2
+dtype: float64
+
+Linear Regression residuals: mean=3.91, std=54.02
+Residual std (54.0) vs target std (77.1): the model removes only part of the spread.
+
+Variance Inflation Factors (multicollinearity check):
+ s1     59.2
+s2     39.2
+s3     15.4
+s5     10.1
+s4      8.9
+bp      1.5
+bmi     1.5
+s6      1.5
+sex     1.3
+age     1.2
+Correlation between s1 and s2: 0.897
+
+==========================================================================
+PART B: CLASSIFICATION - Breast Cancer dataset
+==========================================================================
+Samples: 569, features: 30
+Class counts: malignant=212, benign=357
+Malignant is treated as the POSITIVE class in precision / recall / F1, because a
+missed malignant tumour (false negative) is the costly mistake.
+Train: 455, Test: 114
+
+CV-selected Decision Tree depth: 2 (CV accuracy=0.932)
+CV-selected KNN k              : 10 (CV accuracy=0.969)
+
+Classification results (positive class = malignant):
+                    Model  Test Acc  Precision  Recall     F1  ROC-AUC  FN  FP
+      Logistic Regression    0.9825     0.9762  0.9762 0.9762   0.9954   1   1
+  Decision Tree (default)    0.9123     0.8478  0.9286 0.8864   0.9157   3   7
+  Decision Tree (depth=2)    0.8947     0.8000  0.9524 0.8696   0.9345   2  10
+Random Forest (100 trees)    0.9561     0.9512  0.9286 0.9398   0.9937   3   2
+                KNN (k=5)    0.9561     0.9512  0.9286 0.9398   0.9788   3   2
+               KNN (k=10)    0.9649     0.9750  0.9286 0.9512   0.9931   3   1
+ Baseline (always benign)    0.6316     0.0000  0.0000 0.0000   0.5000  42   0
+
+Overfitting check and 50-fold repeated CV (5-fold x 10 repeats):
+                    Model  Train Acc  Test Acc  CV Acc mean  CV Acc std  CV Recall(M)  CV AUC
+      Logistic Regression     0.9890    0.9825       0.9789      0.0142        0.9576  0.9948
+  Decision Tree (default)     1.0000    0.9123       0.9299      0.0235        0.9071  0.9253
+  Decision Tree (depth=2)     0.9582    0.8947       0.9191      0.0251        0.8901  0.9360
+Random Forest (100 trees)     1.0000    0.9561       0.9576      0.0212        0.9339  0.9897
+                KNN (k=5)     0.9736    0.9561       0.9657      0.0142        0.9260  0.9848
+               KNN (k=10)     0.9758    0.9649       0.9659      0.0147        0.9298  0.9888
+ Baseline (always benign)     0.6264    0.6316       0.6274      0.0039        0.0000  0.5000
+
+==========================================================================
+PART C: WHY DOES LOGISTIC REGRESSION DO SO WELL? (experiments)
+==========================================================================
+C1. Is the LR vs RF gap real?
+  Single test split : LR=0.9825  RF=0.9561  (difference of 3 test samples out of 114)
+  50-fold repeated CV: LR=0.9789 +/- 0.0142, RF=0.9576 +/- 0.0212
+  Mean difference (LR - RF) = +0.0213; LR better in 41/50 folds, tied in 4, RF better in 5
+  Corrected resampled t-test (Nadeau & Bengio): t = 1.78, p = 0.082
+
+C2. Out-of-fold errors over all 569 samples (5-fold):
+  Logistic Regression         :  15 errors (2.6%)
+  Decision Tree (default)     :  51 errors (9.0%)
+  Random Forest (100 trees)   :  25 errors (4.4%)
+  KNN (k=5)                   :  21 errors (3.7%)
+  Wrong in BOTH LR and RF: 7; only LR wrong: 8; only RF wrong: 18
+
+C3. Feature redundancy: 21 of 435 feature pairs have |correlation| > 0.9
+    of which 18 pairs are both size measurements (radius / perimeter / area)
+
+C4. Validation accuracy as training data grows (training samples -> accuracy):
+  samples   Logistic Regre   Decision Tree   Random Forest             KNN
+  45                 0.954           0.879           0.917           0.919
+  104                0.967           0.891           0.939           0.946
+  162                0.972           0.909           0.946           0.949
+  221                0.970           0.907           0.956           0.960
+  279                0.974           0.910           0.953           0.956
+  338                0.974           0.924           0.953           0.953
+  396                0.972           0.923           0.958           0.958
+  455                0.974           0.910           0.956           0.963
+
+C5. Top-10 features: Random Forest vs Logistic Regression overlap = 5/10
+  RF top 5: worst area (0.140), worst concave points (0.130), worst radius (0.098), mean concave points (0.091), worst perimeter (0.072)
+  LR top 5: worst texture (1.26), radius error (1.08), worst concave points (0.95), worst area (0.95), worst radius (0.95)
+  RF: top 5 features hold 53.0% of total importance
+  RF rank of 'worst texture' = 13, of 'radius error' = 14 (out of 30)
+
+C6. Decision Tree depth vs accuracy (5-fold CV on the training set):
+  depth  1: train=0.926  validation=0.903
+  depth  2: train=0.962  validation=0.932
+  depth  3: train=0.979  validation=0.925
+  depth  4: train=0.988  validation=0.930
+  depth  5: train=0.992  validation=0.923
+  depth  6: train=0.997  validation=0.925
+  depth  7: train=0.998  validation=0.923
+  depth  8: train=0.999  validation=0.923
+  Unrestricted tree: depth=7, leaves=19, train accuracy=1.000, test accuracy=0.912
+
+C7. KNN: validation accuracy with and without feature scaling
+  Best scaled   : k=10, accuracy=0.969
+  Best unscaled : k=5, accuracy=0.941
+  At k=5        : scaled=0.963, unscaled=0.941
+  Feature ranges differ by a factor of 140,569 ('worst area' vs 'fractal dimension error')
+
+Illustration tree (depth 3): test accuracy = 0.939
+
+==========================================================================
+PART D: CONTRAST - a non-linear problem (two moons)
+==========================================================================
+  Logistic Regression : test accuracy = 0.915
+  Decision Tree       : test accuracy = 0.915
+  Random Forest       : test accuracy = 0.945
+  KNN (k=15)          : test accuracy = 0.935
+
+Done. Saved figures fig1 - fig9 and results.json
